@@ -1,0 +1,41 @@
+/*!
+ * CSS rules specific to find-security-bugs
+ */
+.jumbotron {
+border-bottom: 1px solid #e5e5e5;
+}
+h1 {
+font-family: "Squada One", "Courier New", Courier, monospace;
+}
+
+a.anchor{display: block; position: relative; top: -60px; visibility: hidden;}
+
+.book-preview {
+float: left !important;
+margin-right: 10px;}
+
+.feature-list .col-md-4 {
+padding:10px;
+}
+
+section.darker_section {
+color:#FFF;
+backgroud-color:#415C77;
+}
+
+section#features {
+padding-bottom: 40px;
+}
+
+
+#sidebar_lang.affix-top {
+    position: static;
+    margin-top:30px;
+    width:228px;
+  }
+
+#sidebar_lang.affix {
+position: fixed;
+top:70px;
+width:228px;
+}

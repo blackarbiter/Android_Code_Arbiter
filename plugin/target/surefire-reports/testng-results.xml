@@ -1,0 +1,2005 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="195" passed="195">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="1636" started-at="2017-09-14T09:15:25Z" finished-at="2017-09-14T09:15:27Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="1636" started-at="2017-09-14T09:15:25Z" finished-at="2017-09-14T09:15:27Z">
+      <class name="com.h3xstream.findsecbugs.scala.SSRFDetectorTest">
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.scala.SSRFDetectorTest@23bb8443]" name="after" is-config="true" duration-ms="13" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="detectSSRFInController()[pri:0, instance:com.h3xstream.findsecbugs.scala.SSRFDetectorTest@23bb8443]" name="detectSSRFInController" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectSSRFInController -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.scala.SSRFDetectorTest@23bb8443]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+      </class> <!-- com.h3xstream.findsecbugs.scala.SSRFDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.ldap.LdapEntryPoisoningDetectorTest">
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.ldap.LdapEntryPoisoningDetectorTest@32a068d1]" name="after" is-config="true" duration-ms="13" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="detectAnonymousLdapBind()[pri:0, instance:com.h3xstream.findsecbugs.ldap.LdapEntryPoisoningDetectorTest@32a068d1]" name="detectAnonymousLdapBind" duration-ms="0" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectAnonymousLdapBind -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.ldap.LdapEntryPoisoningDetectorTest@32a068d1]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+      </class> <!-- com.h3xstream.findsecbugs.ldap.LdapEntryPoisoningDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.cookie.CookieFlagsDetectorTest">
+        <test-method status="PASS" signature="avoidSecureFlagBasicFalsePositive()[pri:0, instance:com.h3xstream.findsecbugs.cookie.CookieFlagsDetectorTest@5f71c76a]" name="avoidSecureFlagBasicFalsePositive" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- avoidSecureFlagBasicFalsePositive -->
+        <test-method status="PASS" signature="detectHttpOnlyCookieBasic()[pri:0, instance:com.h3xstream.findsecbugs.cookie.CookieFlagsDetectorTest@5f71c76a]" name="detectHttpOnlyCookieBasic" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectHttpOnlyCookieBasic -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.cookie.CookieFlagsDetectorTest@5f71c76a]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="detectSecureFlagCookieBasic()[pri:0, instance:com.h3xstream.findsecbugs.cookie.CookieFlagsDetectorTest@5f71c76a]" name="detectSecureFlagCookieBasic" duration-ms="1" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectSecureFlagCookieBasic -->
+        <test-method status="PASS" signature="avoidHttpOnlyBasicFalsePositive()[pri:0, instance:com.h3xstream.findsecbugs.cookie.CookieFlagsDetectorTest@5f71c76a]" name="avoidHttpOnlyBasicFalsePositive" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- avoidHttpOnlyBasicFalsePositive -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.cookie.CookieFlagsDetectorTest@5f71c76a]" name="after" is-config="true" duration-ms="12" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- com.h3xstream.findsecbugs.cookie.CookieFlagsDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.ReDosDetectorTest">
+        <test-method status="PASS" signature="analyseSafePattern()[pri:0, instance:com.h3xstream.findsecbugs.ReDosDetectorTest@5e25a92e]" name="analyseSafePattern" duration-ms="1" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- analyseSafePattern -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.ReDosDetectorTest@5e25a92e]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="analyseSuspectPattern()[pri:0, instance:com.h3xstream.findsecbugs.ReDosDetectorTest@5e25a92e]" name="analyseSuspectPattern" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- analyseSuspectPattern -->
+        <test-method status="PASS" signature="detectRedosInCode()[pri:0, instance:com.h3xstream.findsecbugs.ReDosDetectorTest@5e25a92e]" name="detectRedosInCode" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectRedosInCode -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.ReDosDetectorTest@5e25a92e]" name="after" is-config="true" duration-ms="12" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- com.h3xstream.findsecbugs.ReDosDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.endpoint.Struts1EndpointDetectorTest">
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.endpoint.Struts1EndpointDetectorTest@2a40cd94]" name="after" is-config="true" duration-ms="9" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="detectStruts1Endpoint()[pri:0, instance:com.h3xstream.findsecbugs.endpoint.Struts1EndpointDetectorTest@2a40cd94]" name="detectStruts1Endpoint" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectStruts1Endpoint -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.endpoint.Struts1EndpointDetectorTest@2a40cd94]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+      </class> <!-- com.h3xstream.findsecbugs.endpoint.Struts1EndpointDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.file.PathTraversalDetectorTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.file.PathTraversalDetectorTest@130f889]" name="before" is-config="true" duration-ms="1" started-at="2017-09-14T17:15:27Z" finished-at="2017-09-14T17:15:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.file.PathTraversalDetectorTest@130f889]" name="after" is-config="true" duration-ms="10" started-at="2017-09-14T17:15:27Z" finished-at="2017-09-14T17:15:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="detectPathTraversal()[pri:0, instance:com.h3xstream.findsecbugs.file.PathTraversalDetectorTest@130f889]" name="detectPathTraversal" duration-ms="0" started-at="2017-09-14T17:15:27Z" finished-at="2017-09-14T17:15:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectPathTraversal -->
+      </class> <!-- com.h3xstream.findsecbugs.file.PathTraversalDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.endpoint.TapestryEndpointDetectorTest">
+        <test-method status="PASS" signature="detectTapestryPagePojo()[pri:0, instance:com.h3xstream.findsecbugs.endpoint.TapestryEndpointDetectorTest@3bd94634]" name="detectTapestryPagePojo" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectTapestryPagePojo -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.endpoint.TapestryEndpointDetectorTest@3bd94634]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.endpoint.TapestryEndpointDetectorTest@3bd94634]" name="after" is-config="true" duration-ms="11" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="detectTapestryPageWithFrameworkReference()[pri:0, instance:com.h3xstream.findsecbugs.endpoint.TapestryEndpointDetectorTest@3bd94634]" name="detectTapestryPageWithFrameworkReference" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectTapestryPageWithFrameworkReference -->
+        <test-method status="PASS" signature="noFalsePositiveOnOtherClass()[pri:0, instance:com.h3xstream.findsecbugs.endpoint.TapestryEndpointDetectorTest@3bd94634]" name="noFalsePositiveOnOtherClass" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- noFalsePositiveOnOtherClass -->
+      </class> <!-- com.h3xstream.findsecbugs.endpoint.TapestryEndpointDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.taintanalysis.TaintAnalysisTaintedByAnnotationTest">
+        <test-method status="PASS" signature="testVariousTaintedAnnotations()[pri:0, instance:com.h3xstream.findsecbugs.taintanalysis.TaintAnalysisTaintedByAnnotationTest@37574691]" name="testVariousTaintedAnnotations" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVariousTaintedAnnotations -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.taintanalysis.TaintAnalysisTaintedByAnnotationTest@37574691]" name="after" is-config="true" duration-ms="11" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.taintanalysis.TaintAnalysisTaintedByAnnotationTest@37574691]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="testSafeTestCases()[pri:0, instance:com.h3xstream.findsecbugs.taintanalysis.TaintAnalysisTaintedByAnnotationTest@37574691]" name="testSafeTestCases" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSafeTestCases -->
+        <test-method status="PASS" signature="testUnsafeTestCases()[pri:0, instance:com.h3xstream.findsecbugs.taintanalysis.TaintAnalysisTaintedByAnnotationTest@37574691]" name="testUnsafeTestCases" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUnsafeTestCases -->
+      </class> <!-- com.h3xstream.findsecbugs.taintanalysis.TaintAnalysisTaintedByAnnotationTest -->
+      <class name="com.h3xstream.findsecbugs.csrf.SpringCsrfProtectionDisabledDetectorTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.csrf.SpringCsrfProtectionDisabledDetectorTest@de3a06f]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="detectSpringCsrfProtectionDisabled()[pri:0, instance:com.h3xstream.findsecbugs.csrf.SpringCsrfProtectionDisabledDetectorTest@de3a06f]" name="detectSpringCsrfProtectionDisabled" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectSpringCsrfProtectionDisabled -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.csrf.SpringCsrfProtectionDisabledDetectorTest@de3a06f]" name="after" is-config="true" duration-ms="8" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- com.h3xstream.findsecbugs.csrf.SpringCsrfProtectionDisabledDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.jsp.JspSpringEvalDetectorTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.jsp.JspSpringEvalDetectorTest@2bbaf4f0]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="jspSpringEval2_unsafe()[pri:0, instance:com.h3xstream.findsecbugs.jsp.JspSpringEvalDetectorTest@2bbaf4f0]" name="jspSpringEval2_unsafe" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jspSpringEval2_unsafe -->
+        <test-method status="PASS" signature="jspSpringEval3_unsafe()[pri:0, instance:com.h3xstream.findsecbugs.jsp.JspSpringEvalDetectorTest@2bbaf4f0]" name="jspSpringEval3_unsafe" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jspSpringEval3_unsafe -->
+        <test-method status="PASS" signature="jspSpringEval1_unsafe()[pri:0, instance:com.h3xstream.findsecbugs.jsp.JspSpringEvalDetectorTest@2bbaf4f0]" name="jspSpringEval1_unsafe" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jspSpringEval1_unsafe -->
+        <test-method status="PASS" signature="jspSpringEval4_safe()[pri:0, instance:com.h3xstream.findsecbugs.jsp.JspSpringEvalDetectorTest@2bbaf4f0]" name="jspSpringEval4_safe" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jspSpringEval4_safe -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.jsp.JspSpringEvalDetectorTest@2bbaf4f0]" name="after" is-config="true" duration-ms="7" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- com.h3xstream.findsecbugs.jsp.JspSpringEvalDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.endpoint.Struts2EndpointDetectorTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.endpoint.Struts2EndpointDetectorTest@f4168b8]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="detectStruts2Endpoint()[pri:0, instance:com.h3xstream.findsecbugs.endpoint.Struts2EndpointDetectorTest@f4168b8]" name="detectStruts2Endpoint" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectStruts2Endpoint -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.endpoint.Struts2EndpointDetectorTest@f4168b8]" name="after" is-config="true" duration-ms="11" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- com.h3xstream.findsecbugs.endpoint.Struts2EndpointDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.crypto.NullCipherDetectorTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.crypto.NullCipherDetectorTest@2473b9ce]" name="before" is-config="true" duration-ms="1" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="detectNullCipher()[pri:0, instance:com.h3xstream.findsecbugs.crypto.NullCipherDetectorTest@2473b9ce]" name="detectNullCipher" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectNullCipher -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.crypto.NullCipherDetectorTest@2473b9ce]" name="after" is-config="true" duration-ms="11" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- com.h3xstream.findsecbugs.crypto.NullCipherDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.jsp.JstlOutDetectorWeblogicTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.jsp.JstlOutDetectorWeblogicTest@70beb599]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.jsp.JstlOutDetectorWeblogicTest@70beb599]" name="after" is-config="true" duration-ms="10" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="jspEscape_weblogic()[pri:0, instance:com.h3xstream.findsecbugs.jsp.JstlOutDetectorWeblogicTest@70beb599]" name="jspEscape_weblogic" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jspEscape_weblogic -->
+      </class> <!-- com.h3xstream.findsecbugs.jsp.JstlOutDetectorWeblogicTest -->
+      <class name="com.h3xstream.findsecbugs.taintanalysis.JaxRsAnnotatedControllerTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.taintanalysis.JaxRsAnnotatedControllerTest@6a79c292]" name="before" is-config="true" duration-ms="1" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.taintanalysis.JaxRsAnnotatedControllerTest@6a79c292]" name="after" is-config="true" duration-ms="10" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="testSafeTestCases()[pri:0, instance:com.h3xstream.findsecbugs.taintanalysis.JaxRsAnnotatedControllerTest@6a79c292]" name="testSafeTestCases" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSafeTestCases -->
+      </class> <!-- com.h3xstream.findsecbugs.taintanalysis.JaxRsAnnotatedControllerTest -->
+      <class name="com.h3xstream.findsecbugs.bugs.OutOfBoundMutableTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.bugs.OutOfBoundMutableTest@69379752]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="detectSecureFlagCookieBasic()[pri:0, instance:com.h3xstream.findsecbugs.bugs.OutOfBoundMutableTest@69379752]" name="detectSecureFlagCookieBasic" duration-ms="0" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectSecureFlagCookieBasic -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.bugs.OutOfBoundMutableTest@69379752]" name="after" is-config="true" duration-ms="9" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- com.h3xstream.findsecbugs.bugs.OutOfBoundMutableTest -->
+      <class name="com.h3xstream.findsecbugs.android.PrintlnUseDetectorTest">
+        <test-method status="PASS" signature="detectPrintln()[pri:0, instance:com.h3xstream.findsecbugs.android.PrintlnUseDetectorTest@44f75083]" name="detectPrintln" duration-ms="0" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectPrintln -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.android.PrintlnUseDetectorTest@44f75083]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.android.PrintlnUseDetectorTest@44f75083]" name="after" is-config="true" duration-ms="11" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- com.h3xstream.findsecbugs.android.PrintlnUseDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.android.WebViewJavascriptEnabledDetectorTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.android.WebViewJavascriptEnabledDetectorTest@2698dc7]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.android.WebViewJavascriptEnabledDetectorTest@2698dc7]" name="after" is-config="true" duration-ms="9" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="detectWebViewJavascriptEnabled()[pri:0, instance:com.h3xstream.findsecbugs.android.WebViewJavascriptEnabledDetectorTest@2698dc7]" name="detectWebViewJavascriptEnabled" duration-ms="0" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectWebViewJavascriptEnabled -->
+      </class> <!-- com.h3xstream.findsecbugs.android.WebViewJavascriptEnabledDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.crypto.EsapiEncryptorDetectorTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.crypto.EsapiEncryptorDetectorTest@1ad282e0]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.crypto.EsapiEncryptorDetectorTest@1ad282e0]" name="after" is-config="true" duration-ms="11" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="detectEcryptor()[pri:0, instance:com.h3xstream.findsecbugs.crypto.EsapiEncryptorDetectorTest@1ad282e0]" name="detectEcryptor" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectEcryptor -->
+      </class> <!-- com.h3xstream.findsecbugs.crypto.EsapiEncryptorDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.PredictableRandomDetectorScalaTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.PredictableRandomDetectorScalaTest@71a794e5]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="detectUsePredictableRandom()[pri:0, instance:com.h3xstream.findsecbugs.PredictableRandomDetectorScalaTest@71a794e5]" name="detectUsePredictableRandom" duration-ms="0" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectUsePredictableRandom -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.PredictableRandomDetectorScalaTest@71a794e5]" name="after" is-config="true" duration-ms="8" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- com.h3xstream.findsecbugs.PredictableRandomDetectorScalaTest -->
+      <class name="com.h3xstream.findsecbugs.injection.script.SpelInjectionTest">
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.injection.script.SpelInjectionTest@1ee807c6]" name="after" is-config="true" duration-ms="12" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="detectInjection()[pri:0, instance:com.h3xstream.findsecbugs.injection.script.SpelInjectionTest@1ee807c6]" name="detectInjection" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectInjection -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.injection.script.SpelInjectionTest@1ee807c6]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+      </class> <!-- com.h3xstream.findsecbugs.injection.script.SpelInjectionTest -->
+      <class name="com.h3xstream.findsecbugs.android.GeolocationDetectorTest">
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.android.GeolocationDetectorTest@3d0f8e03]" name="after" is-config="true" duration-ms="8" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="detectGeolocationFromWebView()[pri:0, instance:com.h3xstream.findsecbugs.android.GeolocationDetectorTest@3d0f8e03]" name="detectGeolocationFromWebView" duration-ms="0" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectGeolocationFromWebView -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.android.GeolocationDetectorTest@3d0f8e03]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+      </class> <!-- com.h3xstream.findsecbugs.android.GeolocationDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.template.VelocityDetectorTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.template.VelocityDetectorTest@21a947fe]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="allSignatures()[pri:0, instance:com.h3xstream.findsecbugs.template.VelocityDetectorTest@21a947fe]" name="allSignatures" duration-ms="0" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allSignatures -->
+        <test-method status="PASS" signature="avoidBasicFalsePositive()[pri:0, instance:com.h3xstream.findsecbugs.template.VelocityDetectorTest@21a947fe]" name="avoidBasicFalsePositive" duration-ms="0" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- avoidBasicFalsePositive -->
+        <test-method status="PASS" signature="basicUsagesTesting()[pri:0, instance:com.h3xstream.findsecbugs.template.VelocityDetectorTest@21a947fe]" name="basicUsagesTesting" duration-ms="0" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basicUsagesTesting -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.template.VelocityDetectorTest@21a947fe]" name="after" is-config="true" duration-ms="9" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- com.h3xstream.findsecbugs.template.VelocityDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.WeakFilenameUtilsMethodDetectorTest">
+        <test-method status="PASS" signature="detectWeakFilenameUtils()[pri:0, instance:com.h3xstream.findsecbugs.WeakFilenameUtilsMethodDetectorTest@80ec1f8]" name="detectWeakFilenameUtils" duration-ms="1" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectWeakFilenameUtils -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.WeakFilenameUtilsMethodDetectorTest@80ec1f8]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.WeakFilenameUtilsMethodDetectorTest@80ec1f8]" name="after" is-config="true" duration-ms="10" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- com.h3xstream.findsecbugs.WeakFilenameUtilsMethodDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.injection.script.ElInjectionTest">
+        <test-method status="PASS" signature="detectInjection()[pri:0, instance:com.h3xstream.findsecbugs.injection.script.ElInjectionTest@32464a14]" name="detectInjection" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectInjection -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.injection.script.ElInjectionTest@32464a14]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.injection.script.ElInjectionTest@32464a14]" name="after" is-config="true" duration-ms="12" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- com.h3xstream.findsecbugs.injection.script.ElInjectionTest -->
+      <class name="com.h3xstream.findsecbugs.injection.sql.JdoInjectionSourceFilterTest">
+        <test-method status="PASS" signature="detectJdoInjectionInFilters()[pri:0, instance:com.h3xstream.findsecbugs.injection.sql.JdoInjectionSourceFilterTest@679b62af]" name="detectJdoInjectionInFilters" duration-ms="1" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectJdoInjectionInFilters -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.injection.sql.JdoInjectionSourceFilterTest@679b62af]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.injection.sql.JdoInjectionSourceFilterTest@679b62af]" name="after" is-config="true" duration-ms="10" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- com.h3xstream.findsecbugs.injection.sql.JdoInjectionSourceFilterTest -->
+      <class name="com.h3xstream.findsecbugs.injection.custom.CustomInjectionDetectorTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.injection.custom.CustomInjectionDetectorTest@15bfd87]" name="before" is-config="true" duration-ms="6" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.injection.custom.CustomInjectionDetectorTest@15bfd87]" name="after" is-config="true" duration-ms="19" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="detectInjection()[pri:0, instance:com.h3xstream.findsecbugs.injection.custom.CustomInjectionDetectorTest@15bfd87]" name="detectInjection" duration-ms="0" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectInjection -->
+      </class> <!-- com.h3xstream.findsecbugs.injection.custom.CustomInjectionDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.injection.trust.TrustBoundaryViolationDetectorTest">
+        <test-method status="PASS" signature="detectTBV()[pri:0, instance:com.h3xstream.findsecbugs.injection.trust.TrustBoundaryViolationDetectorTest@69a10787]" name="detectTBV" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectTBV -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.injection.trust.TrustBoundaryViolationDetectorTest@69a10787]" name="after" is-config="true" duration-ms="10" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.injection.trust.TrustBoundaryViolationDetectorTest@69a10787]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+      </class> <!-- com.h3xstream.findsecbugs.injection.trust.TrustBoundaryViolationDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.injection.sql.SqlMethodUnknownSourceTest">
+        <test-method status="PASS" signature="detectInjection()[pri:0, instance:com.h3xstream.findsecbugs.injection.sql.SqlMethodUnknownSourceTest@49c43f4e]" name="detectInjection" duration-ms="1" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectInjection -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.injection.sql.SqlMethodUnknownSourceTest@49c43f4e]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.injection.sql.SqlMethodUnknownSourceTest@49c43f4e]" name="after" is-config="true" duration-ms="10" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- com.h3xstream.findsecbugs.injection.sql.SqlMethodUnknownSourceTest -->
+      <class name="com.h3xstream.findsecbugs.crypto.BadHexadecimalConversionDetectorTest">
+        <test-method status="PASS" signature="detectBadHexa()[pri:0, instance:com.h3xstream.findsecbugs.crypto.BadHexadecimalConversionDetectorTest@4f51b3e0]" name="detectBadHexa" duration-ms="1" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectBadHexa -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.crypto.BadHexadecimalConversionDetectorTest@4f51b3e0]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.crypto.BadHexadecimalConversionDetectorTest@4f51b3e0]" name="after" is-config="true" duration-ms="11" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- com.h3xstream.findsecbugs.crypto.BadHexadecimalConversionDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.injection.fileDisclosure.FileDisclosureDetectorTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.injection.fileDisclosure.FileDisclosureDetectorTest@588df31b]" name="before" is-config="true" duration-ms="1" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.injection.fileDisclosure.FileDisclosureDetectorTest@588df31b]" name="after" is-config="true" duration-ms="10" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="detectFileDisclosure()[pri:0, instance:com.h3xstream.findsecbugs.injection.fileDisclosure.FileDisclosureDetectorTest@588df31b]" name="detectFileDisclosure" duration-ms="0" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectFileDisclosure -->
+      </class> <!-- com.h3xstream.findsecbugs.injection.fileDisclosure.FileDisclosureDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.ldap.SpringLdapInjectionTest">
+        <test-method status="PASS" signature="detectAnonymousLdapBind()[pri:0, instance:com.h3xstream.findsecbugs.ldap.SpringLdapInjectionTest@33cb5951]" name="detectAnonymousLdapBind" duration-ms="0" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectAnonymousLdapBind -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.ldap.SpringLdapInjectionTest@33cb5951]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.ldap.SpringLdapInjectionTest@33cb5951]" name="after" is-config="true" duration-ms="10" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- com.h3xstream.findsecbugs.ldap.SpringLdapInjectionTest -->
+      <class name="com.h3xstream.findsecbugs.PredictableRandomDetectorTest">
+        <test-method status="PASS" signature="detectUsePredictableRandom()[pri:0, instance:com.h3xstream.findsecbugs.PredictableRandomDetectorTest@76329302]" name="detectUsePredictableRandom" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectUsePredictableRandom -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.PredictableRandomDetectorTest@76329302]" name="after" is-config="true" duration-ms="12" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.PredictableRandomDetectorTest@76329302]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+      </class> <!-- com.h3xstream.findsecbugs.PredictableRandomDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.serial.DeserializationGadgetDetectorTest">
+        <test-method status="PASS" signature="detectCommonsCollectionGadget()[pri:0, instance:com.h3xstream.findsecbugs.serial.DeserializationGadgetDetectorTest@1176dcec]" name="detectCommonsCollectionGadget" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectCommonsCollectionGadget -->
+        <test-method status="PASS" signature="detectGroovyGadget()[pri:0, instance:com.h3xstream.findsecbugs.serial.DeserializationGadgetDetectorTest@1176dcec]" name="detectGroovyGadget" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectGroovyGadget -->
+        <test-method status="PASS" signature="detectSpringGadget()[pri:0, instance:com.h3xstream.findsecbugs.serial.DeserializationGadgetDetectorTest@1176dcec]" name="detectSpringGadget" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectSpringGadget -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.serial.DeserializationGadgetDetectorTest@1176dcec]" name="after" is-config="true" duration-ms="10" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.serial.DeserializationGadgetDetectorTest@1176dcec]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+      </class> <!-- com.h3xstream.findsecbugs.serial.DeserializationGadgetDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.scala.ScalaCommandInjectionDetectorTest">
+        <test-method status="PASS" signature="detectCommandInjection()[pri:0, instance:com.h3xstream.findsecbugs.scala.ScalaCommandInjectionDetectorTest@b59d31]" name="detectCommandInjection" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectCommandInjection -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.scala.ScalaCommandInjectionDetectorTest@b59d31]" name="after" is-config="true" duration-ms="13" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.scala.ScalaCommandInjectionDetectorTest@b59d31]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+      </class> <!-- com.h3xstream.findsecbugs.scala.ScalaCommandInjectionDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.injection.ldap.JndiLdapInjectionSourceAdditionalSignaturesTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.injection.ldap.JndiLdapInjectionSourceAdditionalSignaturesTest@7181ae3f]" name="before" is-config="true" duration-ms="1" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="detectLdapInjectionInQuery()[pri:0, instance:com.h3xstream.findsecbugs.injection.ldap.JndiLdapInjectionSourceAdditionalSignaturesTest@7181ae3f]" name="detectLdapInjectionInQuery" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectLdapInjectionInQuery -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.injection.ldap.JndiLdapInjectionSourceAdditionalSignaturesTest@7181ae3f]" name="after" is-config="true" duration-ms="11" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="detectLdapInjectionEdgeCase()[pri:0, instance:com.h3xstream.findsecbugs.injection.ldap.JndiLdapInjectionSourceAdditionalSignaturesTest@7181ae3f]" name="detectLdapInjectionEdgeCase" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectLdapInjectionEdgeCase -->
+        <test-method status="PASS" signature="detectLdapInjectionInQuerySunApi()[pri:0, instance:com.h3xstream.findsecbugs.injection.ldap.JndiLdapInjectionSourceAdditionalSignaturesTest@7181ae3f]" name="detectLdapInjectionInQuerySunApi" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectLdapInjectionInQuerySunApi -->
+      </class> <!-- com.h3xstream.findsecbugs.injection.ldap.JndiLdapInjectionSourceAdditionalSignaturesTest -->
+      <class name="com.h3xstream.findsecbugs.injection.script.OgnlInjectionDetectorTest">
+        <test-method status="PASS" signature="detectOgnlUtil()[pri:0, instance:com.h3xstream.findsecbugs.injection.script.OgnlInjectionDetectorTest@4e4aea35]" name="detectOgnlUtil" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectOgnlUtil -->
+        <test-method status="PASS" signature="detectOgnlReflectionProvider()[pri:0, instance:com.h3xstream.findsecbugs.injection.script.OgnlInjectionDetectorTest@4e4aea35]" name="detectOgnlReflectionProvider" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectOgnlReflectionProvider -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.injection.script.OgnlInjectionDetectorTest@4e4aea35]" name="after" is-config="true" duration-ms="10" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.injection.script.OgnlInjectionDetectorTest@4e4aea35]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="detectTextParser()[pri:0, instance:com.h3xstream.findsecbugs.injection.script.OgnlInjectionDetectorTest@4e4aea35]" name="detectTextParser" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectTextParser -->
+      </class> <!-- com.h3xstream.findsecbugs.injection.script.OgnlInjectionDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.xss.XssPortletDetectorTest">
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.xss.XssPortletDetectorTest@71248c21]" name="after" is-config="true" duration-ms="27" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.xss.XssPortletDetectorTest@71248c21]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="detectIbmPortlet()[pri:0, instance:com.h3xstream.findsecbugs.xss.XssPortletDetectorTest@71248c21]" name="detectIbmPortlet" duration-ms="0" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectIbmPortlet -->
+        <test-method status="PASS" signature="detectPortlet()[pri:0, instance:com.h3xstream.findsecbugs.xss.XssPortletDetectorTest@71248c21]" name="detectPortlet" duration-ms="0" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectPortlet -->
+      </class> <!-- com.h3xstream.findsecbugs.xss.XssPortletDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.injection.sql.HibernateInjectionSourceTest">
+        <test-method status="PASS" signature="detectHibernateInjection()[pri:0, instance:com.h3xstream.findsecbugs.injection.sql.HibernateInjectionSourceTest@6cc7b4de]" name="detectHibernateInjection" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectHibernateInjection -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.injection.sql.HibernateInjectionSourceTest@6cc7b4de]" name="after" is-config="true" duration-ms="11" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.injection.sql.HibernateInjectionSourceTest@6cc7b4de]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+      </class> <!-- com.h3xstream.findsecbugs.injection.sql.HibernateInjectionSourceTest -->
+      <class name="com.h3xstream.findsecbugs.injection.ldap.UnboundIdLdapInjectionSourceTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.injection.ldap.UnboundIdLdapInjectionSourceTest@6e2c9341]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.injection.ldap.UnboundIdLdapInjectionSourceTest@6e2c9341]" name="after" is-config="true" duration-ms="10" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="detectLdapInjection()[pri:0, instance:com.h3xstream.findsecbugs.injection.ldap.UnboundIdLdapInjectionSourceTest@6e2c9341]" name="detectLdapInjection" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectLdapInjection -->
+      </class> <!-- com.h3xstream.findsecbugs.injection.ldap.UnboundIdLdapInjectionSourceTest -->
+      <class name="com.h3xstream.findsecbugs.injection.aws.AwsQueryInjectionDetectorTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.injection.aws.AwsQueryInjectionDetectorTest@2f490758]" name="before" is-config="true" duration-ms="2" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.injection.aws.AwsQueryInjectionDetectorTest@2f490758]" name="after" is-config="true" duration-ms="38" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="detectAwsQueryInjection()[pri:0, instance:com.h3xstream.findsecbugs.injection.aws.AwsQueryInjectionDetectorTest@2f490758]" name="detectAwsQueryInjection" duration-ms="0" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectAwsQueryInjection -->
+      </class> <!-- com.h3xstream.findsecbugs.injection.aws.AwsQueryInjectionDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.password.HardcodePasswordInMapDetectorTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.password.HardcodePasswordInMapDetectorTest@4148db48]" name="before" is-config="true" duration-ms="1" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.password.HardcodePasswordInMapDetectorTest@4148db48]" name="after" is-config="true" duration-ms="7" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="detectHardCodeCredentialsVariousMap()[pri:0, instance:com.h3xstream.findsecbugs.password.HardcodePasswordInMapDetectorTest@4148db48]" name="detectHardCodeCredentialsVariousMap" duration-ms="0" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectHardCodeCredentialsVariousMap -->
+        <test-method status="PASS" signature="detectHardCodeCredentials()[pri:0, instance:com.h3xstream.findsecbugs.password.HardcodePasswordInMapDetectorTest@4148db48]" name="detectHardCodeCredentials" duration-ms="0" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectHardCodeCredentials -->
+      </class> <!-- com.h3xstream.findsecbugs.password.HardcodePasswordInMapDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.serial.UnsafeJacksonDeserializationDetectorTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.serial.UnsafeJacksonDeserializationDetectorTest@4ba2ca36]" name="before" is-config="true" duration-ms="1" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="avoidJacksonFalsePositive()[pri:0, instance:com.h3xstream.findsecbugs.serial.UnsafeJacksonDeserializationDetectorTest@4ba2ca36]" name="avoidJacksonFalsePositive" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- avoidJacksonFalsePositive -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.serial.UnsafeJacksonDeserializationDetectorTest@4ba2ca36]" name="after" is-config="true" duration-ms="12" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="testJacksonDeserialization()[pri:0, instance:com.h3xstream.findsecbugs.serial.UnsafeJacksonDeserializationDetectorTest@4ba2ca36]" name="testJacksonDeserialization" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testJacksonDeserialization -->
+      </class> <!-- com.h3xstream.findsecbugs.serial.UnsafeJacksonDeserializationDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.xpath.XPathInjectionApacheXPathApiDetectorTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.xpath.XPathInjectionApacheXPathApiDetectorTest@16267862]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.xpath.XPathInjectionApacheXPathApiDetectorTest@16267862]" name="after" is-config="true" duration-ms="8" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="detectXPathInjectionApache()[pri:0, instance:com.h3xstream.findsecbugs.xpath.XPathInjectionApacheXPathApiDetectorTest@16267862]" name="detectXPathInjectionApache" duration-ms="0" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectXPathInjectionApache -->
+      </class> <!-- com.h3xstream.findsecbugs.xpath.XPathInjectionApacheXPathApiDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.injection.beans.BeanInjectionDetectorTest">
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.injection.beans.BeanInjectionDetectorTest@101df177]" name="after" is-config="true" duration-ms="20" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="detectBeanInjection()[pri:0, instance:com.h3xstream.findsecbugs.injection.beans.BeanInjectionDetectorTest@101df177]" name="detectBeanInjection" duration-ms="0" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectBeanInjection -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.injection.beans.BeanInjectionDetectorTest@101df177]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+      </class> <!-- com.h3xstream.findsecbugs.injection.beans.BeanInjectionDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.xss.XssResourceBundleTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.xss.XssResourceBundleTest@442675e1]" name="before" is-config="true" duration-ms="1" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.xss.XssResourceBundleTest@442675e1]" name="after" is-config="true" duration-ms="9" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="avoidResourceBundle()[pri:0, instance:com.h3xstream.findsecbugs.xss.XssResourceBundleTest@442675e1]" name="avoidResourceBundle" duration-ms="0" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- avoidResourceBundle -->
+      </class> <!-- com.h3xstream.findsecbugs.xss.XssResourceBundleTest -->
+      <class name="com.h3xstream.findsecbugs.injection.formatter.FormatStringManipulationDetectorTest">
+        <test-method status="PASS" signature="detectFormatStringManipulation()[pri:0, instance:com.h3xstream.findsecbugs.injection.formatter.FormatStringManipulationDetectorTest@33b37288]" name="detectFormatStringManipulation" duration-ms="0" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectFormatStringManipulation -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.injection.formatter.FormatStringManipulationDetectorTest@33b37288]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.injection.formatter.FormatStringManipulationDetectorTest@33b37288]" name="after" is-config="true" duration-ms="6" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- com.h3xstream.findsecbugs.injection.formatter.FormatStringManipulationDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.injection.sql.TurbineSqlDetectorTest">
+        <test-method status="PASS" signature="detectInjection()[pri:0, instance:com.h3xstream.findsecbugs.injection.sql.TurbineSqlDetectorTest@12028586]" name="detectInjection" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectInjection -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.injection.sql.TurbineSqlDetectorTest@12028586]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.injection.sql.TurbineSqlDetectorTest@12028586]" name="after" is-config="true" duration-ms="7" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- com.h3xstream.findsecbugs.injection.sql.TurbineSqlDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.crypto.StaticIvDetectorTest">
+        <test-method status="PASS" signature="avoidFalsePositiveDecrypt()[pri:0, instance:com.h3xstream.findsecbugs.crypto.StaticIvDetectorTest@140e5a13]" name="avoidFalsePositiveDecrypt" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- avoidFalsePositiveDecrypt -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.crypto.StaticIvDetectorTest@140e5a13]" name="after" is-config="true" duration-ms="11" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="avoidFalsePositiveGenerateWithKeyGenerator()[pri:0, instance:com.h3xstream.findsecbugs.crypto.StaticIvDetectorTest@140e5a13]" name="avoidFalsePositiveGenerateWithKeyGenerator" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- avoidFalsePositiveGenerateWithKeyGenerator -->
+        <test-method status="PASS" signature="detectConstantIv()[pri:0, instance:com.h3xstream.findsecbugs.crypto.StaticIvDetectorTest@140e5a13]" name="detectConstantIv" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectConstantIv -->
+        <test-method status="PASS" signature="detectStaticIv()[pri:0, instance:com.h3xstream.findsecbugs.crypto.StaticIvDetectorTest@140e5a13]" name="detectStaticIv" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectStaticIv -->
+        <test-method status="PASS" signature="avoidFalsePositiveSecRandom()[pri:0, instance:com.h3xstream.findsecbugs.crypto.StaticIvDetectorTest@140e5a13]" name="avoidFalsePositiveSecRandom" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- avoidFalsePositiveSecRandom -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.crypto.StaticIvDetectorTest@140e5a13]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+      </class> <!-- com.h3xstream.findsecbugs.crypto.StaticIvDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.injection.script.SeamLoggingDetectionTest">
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.injection.script.SeamLoggingDetectionTest@1efee8e7]" name="after" is-config="true" duration-ms="13" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="detectInjection()[pri:0, instance:com.h3xstream.findsecbugs.injection.script.SeamLoggingDetectionTest@1efee8e7]" name="detectInjection" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectInjection -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.injection.script.SeamLoggingDetectionTest@1efee8e7]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+      </class> <!-- com.h3xstream.findsecbugs.injection.script.SeamLoggingDetectionTest -->
+      <class name="com.h3xstream.findsecbugs.injection.ldap.JndiLdapInjectionSourceTest">
+        <test-method status="PASS" signature="detectLdapInjectionInQuery()[pri:0, instance:com.h3xstream.findsecbugs.injection.ldap.JndiLdapInjectionSourceTest@46238e3f]" name="detectLdapInjectionInQuery" duration-ms="1" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectLdapInjectionInQuery -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.injection.ldap.JndiLdapInjectionSourceTest@46238e3f]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.injection.ldap.JndiLdapInjectionSourceTest@46238e3f]" name="after" is-config="true" duration-ms="20" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- com.h3xstream.findsecbugs.injection.ldap.JndiLdapInjectionSourceTest -->
+      <class name="com.h3xstream.findsecbugs.xml.XmlReaderDetectorTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.xml.XmlReaderDetectorTest@6c3f5566]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="detectXxe()[pri:0, instance:com.h3xstream.findsecbugs.xml.XmlReaderDetectorTest@6c3f5566]" name="detectXxe" duration-ms="0" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectXxe -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.xml.XmlReaderDetectorTest@6c3f5566]" name="after" is-config="true" duration-ms="10" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="avoidFalsePositive()[pri:0, instance:com.h3xstream.findsecbugs.xml.XmlReaderDetectorTest@6c3f5566]" name="avoidFalsePositive" duration-ms="0" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- avoidFalsePositive -->
+      </class> <!-- com.h3xstream.findsecbugs.xml.XmlReaderDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.StrutsValidatorFormDetectorTest">
+        <test-method status="PASS" signature="strutsFormWithoutValidation2()[pri:0, instance:com.h3xstream.findsecbugs.StrutsValidatorFormDetectorTest@1372ed45]" name="strutsFormWithoutValidation2" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- strutsFormWithoutValidation2 -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.StrutsValidatorFormDetectorTest@1372ed45]" name="after" is-config="true" duration-ms="11" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="strutsFormWithValidation()[pri:0, instance:com.h3xstream.findsecbugs.StrutsValidatorFormDetectorTest@1372ed45]" name="strutsFormWithValidation" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- strutsFormWithValidation -->
+        <test-method status="PASS" signature="strutsFormWithoutValidation1()[pri:0, instance:com.h3xstream.findsecbugs.StrutsValidatorFormDetectorTest@1372ed45]" name="strutsFormWithoutValidation1" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- strutsFormWithoutValidation1 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.StrutsValidatorFormDetectorTest@1372ed45]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+      </class> <!-- com.h3xstream.findsecbugs.StrutsValidatorFormDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.scala.ScalaSensitiveDataExposureDetectorTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.scala.ScalaSensitiveDataExposureDetectorTest@11e21d0e]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.scala.ScalaSensitiveDataExposureDetectorTest@11e21d0e]" name="after" is-config="true" duration-ms="11" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="detectSensitiveDataExposure()[pri:0, instance:com.h3xstream.findsecbugs.scala.ScalaSensitiveDataExposureDetectorTest@11e21d0e]" name="detectSensitiveDataExposure" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectSensitiveDataExposure -->
+      </class> <!-- com.h3xstream.findsecbugs.scala.ScalaSensitiveDataExposureDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.crypto.CipherWithNoIntegrityDetectorTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.crypto.CipherWithNoIntegrityDetectorTest@4b9e255]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.crypto.CipherWithNoIntegrityDetectorTest@4b9e255]" name="after" is-config="true" duration-ms="10" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="detectNoIntegrity()[pri:0, instance:com.h3xstream.findsecbugs.crypto.CipherWithNoIntegrityDetectorTest@4b9e255]" name="detectNoIntegrity" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectNoIntegrity -->
+      </class> <!-- com.h3xstream.findsecbugs.crypto.CipherWithNoIntegrityDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.injection.crlf.CrlfLogInjectionDetectorTest">
+        <test-method status="PASS" signature="detectResponseSplitting()[pri:0, instance:com.h3xstream.findsecbugs.injection.crlf.CrlfLogInjectionDetectorTest@276438c9]" name="detectResponseSplitting" duration-ms="0" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectResponseSplitting -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.injection.crlf.CrlfLogInjectionDetectorTest@276438c9]" name="after" is-config="true" duration-ms="7" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.injection.crlf.CrlfLogInjectionDetectorTest@276438c9]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+      </class> <!-- com.h3xstream.findsecbugs.injection.crlf.CrlfLogInjectionDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.crypto.DesUsageDetectorTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.crypto.DesUsageDetectorTest@133e16fd]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="detectDesCipher()[pri:0, instance:com.h3xstream.findsecbugs.crypto.DesUsageDetectorTest@133e16fd]" name="detectDesCipher" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectDesCipher -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.crypto.DesUsageDetectorTest@133e16fd]" name="after" is-config="true" duration-ms="10" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="detectDesKeyGeneration()[pri:0, instance:com.h3xstream.findsecbugs.crypto.DesUsageDetectorTest@133e16fd]" name="detectDesKeyGeneration" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectDesKeyGeneration -->
+      </class> <!-- com.h3xstream.findsecbugs.crypto.DesUsageDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.injection.command.CommandInjectionDetectorAdvancedTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.injection.command.CommandInjectionDetectorAdvancedTest@166fa74d]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="avoidFalsePositive()[pri:0, instance:com.h3xstream.findsecbugs.injection.command.CommandInjectionDetectorAdvancedTest@166fa74d]" name="avoidFalsePositive" duration-ms="1" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- avoidFalsePositive -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.injection.command.CommandInjectionDetectorAdvancedTest@166fa74d]" name="after" is-config="true" duration-ms="9" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="detectSuspicious()[pri:0, instance:com.h3xstream.findsecbugs.injection.command.CommandInjectionDetectorAdvancedTest@166fa74d]" name="detectSuspicious" duration-ms="0" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectSuspicious -->
+      </class> <!-- com.h3xstream.findsecbugs.injection.command.CommandInjectionDetectorAdvancedTest -->
+      <class name="com.h3xstream.findsecbugs.android.ExternalFileAccessDetectorTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.android.ExternalFileAccessDetectorTest@57f23557]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.android.ExternalFileAccessDetectorTest@57f23557]" name="after" is-config="true" duration-ms="15" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="detectExternalFileAccess()[pri:0, instance:com.h3xstream.findsecbugs.android.ExternalFileAccessDetectorTest@57f23557]" name="detectExternalFileAccess" duration-ms="0" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectExternalFileAccess -->
+      </class> <!-- com.h3xstream.findsecbugs.android.ExternalFileAccessDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.injection.sql.AndroidInjectionSourceTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.injection.sql.AndroidInjectionSourceTest@517cd4b]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="detectAndroidCustomContentProvider()[pri:0, instance:com.h3xstream.findsecbugs.injection.sql.AndroidInjectionSourceTest@517cd4b]" name="detectAndroidCustomContentProvider" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectAndroidCustomContentProvider -->
+        <test-method status="PASS" signature="detectAndroidInjection()[pri:0, instance:com.h3xstream.findsecbugs.injection.sql.AndroidInjectionSourceTest@517cd4b]" name="detectAndroidInjection" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectAndroidInjection -->
+        <test-method status="PASS" signature="detectAndroidContentProviderInjection()[pri:0, instance:com.h3xstream.findsecbugs.injection.sql.AndroidInjectionSourceTest@517cd4b]" name="detectAndroidContentProviderInjection" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectAndroidContentProviderInjection -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.injection.sql.AndroidInjectionSourceTest@517cd4b]" name="after" is-config="true" duration-ms="9" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- com.h3xstream.findsecbugs.injection.sql.AndroidInjectionSourceTest -->
+      <class name="com.h3xstream.findsecbugs.endpoint.JaxRsEndpointDetectorTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.endpoint.JaxRsEndpointDetectorTest@2bea5ab4]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.endpoint.JaxRsEndpointDetectorTest@2bea5ab4]" name="after" is-config="true" duration-ms="7" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="detectJaxRsEndpoint()[pri:0, instance:com.h3xstream.findsecbugs.endpoint.JaxRsEndpointDetectorTest@2bea5ab4]" name="detectJaxRsEndpoint" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectJaxRsEndpoint -->
+      </class> <!-- com.h3xstream.findsecbugs.endpoint.JaxRsEndpointDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.injection.sql.TorqueSqlDetectorTest">
+        <test-method status="PASS" signature="detectInjection()[pri:0, instance:com.h3xstream.findsecbugs.injection.sql.TorqueSqlDetectorTest@290dbf45]" name="detectInjection" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectInjection -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.injection.sql.TorqueSqlDetectorTest@290dbf45]" name="after" is-config="true" duration-ms="14" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.injection.sql.TorqueSqlDetectorTest@290dbf45]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+      </class> <!-- com.h3xstream.findsecbugs.injection.sql.TorqueSqlDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.scala.SslDisablerDetectorTest">
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.scala.SslDisablerDetectorTest@3ffcd140]" name="after" is-config="true" duration-ms="15" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.scala.SslDisablerDetectorTest@3ffcd140]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="detectSslDisabler()[pri:0, instance:com.h3xstream.findsecbugs.scala.SslDisablerDetectorTest@3ffcd140]" name="detectSslDisabler" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectSslDisabler -->
+      </class> <!-- com.h3xstream.findsecbugs.scala.SslDisablerDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.injection.command.CommandInjectionDetectorTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.injection.command.CommandInjectionDetectorTest@40f08448]" name="before" is-config="true" duration-ms="1" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.injection.command.CommandInjectionDetectorTest@40f08448]" name="after" is-config="true" duration-ms="9" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="detectCommandInjection()[pri:0, instance:com.h3xstream.findsecbugs.injection.command.CommandInjectionDetectorTest@40f08448]" name="detectCommandInjection" duration-ms="0" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectCommandInjection -->
+      </class> <!-- com.h3xstream.findsecbugs.injection.command.CommandInjectionDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.endpoint.WicketEndpointDetectorTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.endpoint.WicketEndpointDetectorTest@58a90037]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="detectWicketEndpoint()[pri:0, instance:com.h3xstream.findsecbugs.endpoint.WicketEndpointDetectorTest@58a90037]" name="detectWicketEndpoint" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectWicketEndpoint -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.endpoint.WicketEndpointDetectorTest@58a90037]" name="after" is-config="true" duration-ms="12" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- com.h3xstream.findsecbugs.endpoint.WicketEndpointDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.scala.PlayUnvalidatedRedirectDetectorTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.scala.PlayUnvalidatedRedirectDetectorTest@4df828d7]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.scala.PlayUnvalidatedRedirectDetectorTest@4df828d7]" name="after" is-config="true" duration-ms="10" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="detectUsePredictableRandom()[pri:0, instance:com.h3xstream.findsecbugs.scala.PlayUnvalidatedRedirectDetectorTest@4df828d7]" name="detectUsePredictableRandom" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectUsePredictableRandom -->
+      </class> <!-- com.h3xstream.findsecbugs.scala.PlayUnvalidatedRedirectDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.ldap.AnonymousLdapDetectorTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.ldap.AnonymousLdapDetectorTest@4e41089d]" name="before" is-config="true" duration-ms="1" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="detectAnonymousLdapBind()[pri:0, instance:com.h3xstream.findsecbugs.ldap.AnonymousLdapDetectorTest@4e41089d]" name="detectAnonymousLdapBind" duration-ms="2" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectAnonymousLdapBind -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.ldap.AnonymousLdapDetectorTest@4e41089d]" name="after" is-config="true" duration-ms="22" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- com.h3xstream.findsecbugs.ldap.AnonymousLdapDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.jsp.JspIncludeDetectorTest">
+        <test-method status="PASS" signature="jspInclude3_unsafe()[pri:0, instance:com.h3xstream.findsecbugs.jsp.JspIncludeDetectorTest@2d127a61]" name="jspInclude3_unsafe" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jspInclude3_unsafe -->
+        <test-method status="PASS" signature="jspInclude2_safe()[pri:0, instance:com.h3xstream.findsecbugs.jsp.JspIncludeDetectorTest@2d127a61]" name="jspInclude2_safe" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jspInclude2_safe -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.jsp.JspIncludeDetectorTest@2d127a61]" name="after" is-config="true" duration-ms="11" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.jsp.JspIncludeDetectorTest@2d127a61]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="jspInclude1_unsafe()[pri:0, instance:com.h3xstream.findsecbugs.jsp.JspIncludeDetectorTest@2d127a61]" name="jspInclude1_unsafe" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jspInclude1_unsafe -->
+      </class> <!-- com.h3xstream.findsecbugs.jsp.JspIncludeDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.injection.SinkFilesValidationTest">
+        <test-method status="PASS" signature="validateSinks()[pri:0, instance:com.h3xstream.findsecbugs.injection.SinkFilesValidationTest@76a4d6c]" name="validateSinks" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSinks -->
+      </class> <!-- com.h3xstream.findsecbugs.injection.SinkFilesValidationTest -->
+      <class name="com.h3xstream.findsecbugs.password.ConstantPasswordDetectorTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.password.ConstantPasswordDetectorTest@365c30cc]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.password.ConstantPasswordDetectorTest@365c30cc]" name="after" is-config="true" duration-ms="7" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="detectHardCodePasswordsAndKeys()[pri:0, instance:com.h3xstream.findsecbugs.password.ConstantPasswordDetectorTest@365c30cc]" name="detectHardCodePasswordsAndKeys" duration-ms="0" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectHardCodePasswordsAndKeys -->
+      </class> <!-- com.h3xstream.findsecbugs.password.ConstantPasswordDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.xml.DocumentBuilderSafePropertyTest">
+        <test-method status="PASS" signature="detectUnsafePartialConfiguration()[pri:0, instance:com.h3xstream.findsecbugs.xml.DocumentBuilderSafePropertyTest@1445d7f]" name="detectUnsafePartialConfiguration" duration-ms="0" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectUnsafePartialConfiguration -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.xml.DocumentBuilderSafePropertyTest@1445d7f]" name="after" is-config="true" duration-ms="9" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="detectUnsafeNoSpecialSettings()[pri:0, instance:com.h3xstream.findsecbugs.xml.DocumentBuilderSafePropertyTest@1445d7f]" name="detectUnsafeNoSpecialSettings" duration-ms="0" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectUnsafeNoSpecialSettings -->
+        <test-method status="PASS" signature="avoidFalsePositiveOnSafeConfiguration()[pri:0, instance:com.h3xstream.findsecbugs.xml.DocumentBuilderSafePropertyTest@1445d7f]" name="avoidFalsePositiveOnSafeConfiguration" duration-ms="0" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- avoidFalsePositiveOnSafeConfiguration -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.xml.DocumentBuilderSafePropertyTest@1445d7f]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+      </class> <!-- com.h3xstream.findsecbugs.xml.DocumentBuilderSafePropertyTest -->
+      <class name="com.h3xstream.findsecbugs.injection.sql.JdoInjectionSourceTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.injection.sql.JdoInjectionSourceTest@5cdd8682]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="detectJdoInjection()[pri:0, instance:com.h3xstream.findsecbugs.injection.sql.JdoInjectionSourceTest@5cdd8682]" name="detectJdoInjection" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectJdoInjection -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.injection.sql.JdoInjectionSourceTest@5cdd8682]" name="after" is-config="true" duration-ms="9" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- com.h3xstream.findsecbugs.injection.sql.JdoInjectionSourceTest -->
+      <class name="com.h3xstream.findsecbugs.scala.ScalaPathTraversalDetectorTest">
+        <test-method status="PASS" signature="detectCommandInjection()[pri:0, instance:com.h3xstream.findsecbugs.scala.ScalaPathTraversalDetectorTest@62fdb4a6]" name="detectCommandInjection" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectCommandInjection -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.scala.ScalaPathTraversalDetectorTest@62fdb4a6]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.scala.ScalaPathTraversalDetectorTest@62fdb4a6]" name="after" is-config="true" duration-ms="12" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- com.h3xstream.findsecbugs.scala.ScalaPathTraversalDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.xpath.XPathApacheXmlSecTest">
+        <test-method status="PASS" signature="detectXPathInjectionApache()[pri:0, instance:com.h3xstream.findsecbugs.xpath.XPathApacheXmlSecTest@6b67034]" name="detectXPathInjectionApache" duration-ms="0" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectXPathInjectionApache -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.xpath.XPathApacheXmlSecTest@6b67034]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.xpath.XPathApacheXmlSecTest@6b67034]" name="after" is-config="true" duration-ms="10" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- com.h3xstream.findsecbugs.xpath.XPathApacheXmlSecTest -->
+      <class name="com.h3xstream.findsecbugs.UnvalidatedRedirectDetectorTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.UnvalidatedRedirectDetectorTest@5606c0b]" name="before" is-config="true" duration-ms="1" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.UnvalidatedRedirectDetectorTest@5606c0b]" name="after" is-config="true" duration-ms="20" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="detectUnvalidatedRedirect()[pri:0, instance:com.h3xstream.findsecbugs.UnvalidatedRedirectDetectorTest@5606c0b]" name="detectUnvalidatedRedirect" duration-ms="0" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectUnvalidatedRedirect -->
+      </class> <!-- com.h3xstream.findsecbugs.UnvalidatedRedirectDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.xpath.XPathInjectionJavaxDetectorTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.xpath.XPathInjectionJavaxDetectorTest@453da22c]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="detectXPathInjectionJavax()[pri:0, instance:com.h3xstream.findsecbugs.xpath.XPathInjectionJavaxDetectorTest@453da22c]" name="detectXPathInjectionJavax" duration-ms="0" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectXPathInjectionJavax -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.xpath.XPathInjectionJavaxDetectorTest@453da22c]" name="after" is-config="true" duration-ms="11" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- com.h3xstream.findsecbugs.xpath.XPathInjectionJavaxDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.injection.sql.SpringJdbcOperationsAndTemplateTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.injection.sql.SpringJdbcOperationsAndTemplateTest@45afc369]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="detectBasicSpringJdbcInjection()[pri:0, instance:com.h3xstream.findsecbugs.injection.sql.SpringJdbcOperationsAndTemplateTest@45afc369]" name="detectBasicSpringJdbcInjection" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectBasicSpringJdbcInjection -->
+        <test-method status="PASS" signature="detectBatchUpdate()[pri:0, instance:com.h3xstream.findsecbugs.injection.sql.SpringJdbcOperationsAndTemplateTest@45afc369]" name="detectBatchUpdate" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectBatchUpdate -->
+        <test-method status="PASS" signature="detectExecute()[pri:0, instance:com.h3xstream.findsecbugs.injection.sql.SpringJdbcOperationsAndTemplateTest@45afc369]" name="detectExecute" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectExecute -->
+        <test-method status="PASS" signature="detectQuery()[pri:0, instance:com.h3xstream.findsecbugs.injection.sql.SpringJdbcOperationsAndTemplateTest@45afc369]" name="detectQuery" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectQuery -->
+        <test-method status="PASS" signature="detectQueryForList()[pri:0, instance:com.h3xstream.findsecbugs.injection.sql.SpringJdbcOperationsAndTemplateTest@45afc369]" name="detectQueryForList" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectQueryForList -->
+        <test-method status="PASS" signature="detectQueryLong()[pri:0, instance:com.h3xstream.findsecbugs.injection.sql.SpringJdbcOperationsAndTemplateTest@45afc369]" name="detectQueryLong" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectQueryLong -->
+        <test-method status="PASS" signature="detectQueryForObject()[pri:0, instance:com.h3xstream.findsecbugs.injection.sql.SpringJdbcOperationsAndTemplateTest@45afc369]" name="detectQueryForObject" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectQueryForObject -->
+        <test-method status="PASS" signature="detectQueryForRowSet()[pri:0, instance:com.h3xstream.findsecbugs.injection.sql.SpringJdbcOperationsAndTemplateTest@45afc369]" name="detectQueryForRowSet" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectQueryForRowSet -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.injection.sql.SpringJdbcOperationsAndTemplateTest@45afc369]" name="after" is-config="true" duration-ms="11" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="detectQueryInt()[pri:0, instance:com.h3xstream.findsecbugs.injection.sql.SpringJdbcOperationsAndTemplateTest@45afc369]" name="detectQueryInt" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectQueryInt -->
+        <test-method status="PASS" signature="detectQueryForMap()[pri:0, instance:com.h3xstream.findsecbugs.injection.sql.SpringJdbcOperationsAndTemplateTest@45afc369]" name="detectQueryForMap" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectQueryForMap -->
+      </class> <!-- com.h3xstream.findsecbugs.injection.sql.SpringJdbcOperationsAndTemplateTest -->
+      <class name="com.h3xstream.findsecbugs.android.WorldWritableDetectorTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.android.WorldWritableDetectorTest@17baae6e]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.android.WorldWritableDetectorTest@17baae6e]" name="after" is-config="true" duration-ms="7" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="detectWorldWritableHandle()[pri:0, instance:com.h3xstream.findsecbugs.android.WorldWritableDetectorTest@17baae6e]" name="detectWorldWritableHandle" duration-ms="0" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectWorldWritableHandle -->
+      </class> <!-- com.h3xstream.findsecbugs.android.WorldWritableDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.scala.ScalaXssDetectorTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.scala.ScalaXssDetectorTest@3e77a1ed]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="detectXssInController()[pri:0, instance:com.h3xstream.findsecbugs.scala.ScalaXssDetectorTest@3e77a1ed]" name="detectXssInController" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectXssInController -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.scala.ScalaXssDetectorTest@3e77a1ed]" name="after" is-config="true" duration-ms="10" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- com.h3xstream.findsecbugs.scala.ScalaXssDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.crypto.WeakTLSDetectorTest">
+        <test-method status="PASS" signature="detectWeakTLS()[pri:0, instance:com.h3xstream.findsecbugs.crypto.WeakTLSDetectorTest@17695df3]" name="detectWeakTLS" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectWeakTLS -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.crypto.WeakTLSDetectorTest@17695df3]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.crypto.WeakTLSDetectorTest@17695df3]" name="after" is-config="true" duration-ms="10" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- com.h3xstream.findsecbugs.crypto.WeakTLSDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.cookie.PersistentCookieDetectorTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.cookie.PersistentCookieDetectorTest@48a242ce]" name="before" is-config="true" duration-ms="1" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.cookie.PersistentCookieDetectorTest@48a242ce]" name="after" is-config="true" duration-ms="12" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="detectPersistentCookieUsage()[pri:0, instance:com.h3xstream.findsecbugs.cookie.PersistentCookieDetectorTest@48a242ce]" name="detectPersistentCookieUsage" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectPersistentCookieUsage -->
+      </class> <!-- com.h3xstream.findsecbugs.cookie.PersistentCookieDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.ExternalConfigurationControlDetectorTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.ExternalConfigurationControlDetectorTest@74294adb]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:27Z" finished-at="2017-09-14T17:15:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="detectCatalog()[pri:0, instance:com.h3xstream.findsecbugs.ExternalConfigurationControlDetectorTest@74294adb]" name="detectCatalog" duration-ms="0" started-at="2017-09-14T17:15:27Z" finished-at="2017-09-14T17:15:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectCatalog -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.ExternalConfigurationControlDetectorTest@74294adb]" name="after" is-config="true" duration-ms="7" started-at="2017-09-14T17:15:27Z" finished-at="2017-09-14T17:15:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- com.h3xstream.findsecbugs.ExternalConfigurationControlDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.csrf.SpringCsrfUnrestrictedRequestMappingDetectorTest">
+        <test-method status="PASS" signature="detectSpringCsrfUnrestrictedRequestMapping()[pri:0, instance:com.h3xstream.findsecbugs.csrf.SpringCsrfUnrestrictedRequestMappingDetectorTest@76b10754]" name="detectSpringCsrfUnrestrictedRequestMapping" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectSpringCsrfUnrestrictedRequestMapping -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.csrf.SpringCsrfUnrestrictedRequestMappingDetectorTest@76b10754]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="avoidFalsePositiveOnSafeSpringCsrfRequestMapping()[pri:0, instance:com.h3xstream.findsecbugs.csrf.SpringCsrfUnrestrictedRequestMappingDetectorTest@76b10754]" name="avoidFalsePositiveOnSafeSpringCsrfRequestMapping" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- avoidFalsePositiveOnSafeSpringCsrfRequestMapping -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.csrf.SpringCsrfUnrestrictedRequestMappingDetectorTest@76b10754]" name="after" is-config="true" duration-ms="8" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- com.h3xstream.findsecbugs.csrf.SpringCsrfUnrestrictedRequestMappingDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.injection.script.ScriptEngineInjectionTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.injection.script.ScriptEngineInjectionTest@1442d7b5]" name="before" is-config="true" duration-ms="1" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="detectInjection()[pri:0, instance:com.h3xstream.findsecbugs.injection.script.ScriptEngineInjectionTest@1442d7b5]" name="detectInjection" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectInjection -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.injection.script.ScriptEngineInjectionTest@1442d7b5]" name="after" is-config="true" duration-ms="11" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- com.h3xstream.findsecbugs.injection.script.ScriptEngineInjectionTest -->
+      <class name="com.h3xstream.findsecbugs.crypto.WeakMessageDigestDetectorTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.crypto.WeakMessageDigestDetectorTest@71d15f18]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="detectWeakDigestAdditionalSignatures()[pri:0, instance:com.h3xstream.findsecbugs.crypto.WeakMessageDigestDetectorTest@71d15f18]" name="detectWeakDigestAdditionalSignatures" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectWeakDigestAdditionalSignatures -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.crypto.WeakMessageDigestDetectorTest@71d15f18]" name="after" is-config="true" duration-ms="7" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="detectWeakDigest()[pri:0, instance:com.h3xstream.findsecbugs.crypto.WeakMessageDigestDetectorTest@71d15f18]" name="detectWeakDigest" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectWeakDigest -->
+        <test-method status="PASS" signature="detectWeakDigestApache()[pri:0, instance:com.h3xstream.findsecbugs.crypto.WeakMessageDigestDetectorTest@71d15f18]" name="detectWeakDigestApache" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectWeakDigestApache -->
+      </class> <!-- com.h3xstream.findsecbugs.crypto.WeakMessageDigestDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.crypto.InsufficientKeySizeBlowfishDetectorTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.crypto.InsufficientKeySizeBlowfishDetectorTest@5e955596]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="detectBadKeySize()[pri:0, instance:com.h3xstream.findsecbugs.crypto.InsufficientKeySizeBlowfishDetectorTest@5e955596]" name="detectBadKeySize" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectBadKeySize -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.crypto.InsufficientKeySizeBlowfishDetectorTest@5e955596]" name="after" is-config="true" duration-ms="10" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- com.h3xstream.findsecbugs.crypto.InsufficientKeySizeBlowfishDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.crypto.WeakTrustManagerDetectorTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.crypto.WeakTrustManagerDetectorTest@6c9f5c0d]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="detectWeakTrustManager()[pri:0, instance:com.h3xstream.findsecbugs.crypto.WeakTrustManagerDetectorTest@6c9f5c0d]" name="detectWeakTrustManager" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectWeakTrustManager -->
+        <test-method status="PASS" signature="detectWeakTrustManagerSslDisabler()[pri:0, instance:com.h3xstream.findsecbugs.crypto.WeakTrustManagerDetectorTest@6c9f5c0d]" name="detectWeakTrustManagerSslDisabler" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectWeakTrustManagerSslDisabler -->
+        <test-method status="PASS" signature="detectWeakHostnameVerifier()[pri:0, instance:com.h3xstream.findsecbugs.crypto.WeakTrustManagerDetectorTest@6c9f5c0d]" name="detectWeakHostnameVerifier" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectWeakHostnameVerifier -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.crypto.WeakTrustManagerDetectorTest@6c9f5c0d]" name="after" is-config="true" duration-ms="7" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- com.h3xstream.findsecbugs.crypto.WeakTrustManagerDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.XmlDecoderDetectorTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.XmlDecoderDetectorTest@10b48321]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="detectXmlDecoder()[pri:0, instance:com.h3xstream.findsecbugs.XmlDecoderDetectorTest@10b48321]" name="detectXmlDecoder" duration-ms="0" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectXmlDecoder -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.XmlDecoderDetectorTest@10b48321]" name="after" is-config="true" duration-ms="8" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- com.h3xstream.findsecbugs.XmlDecoderDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.endpoint.ServletEndpointDetectorTest">
+        <test-method status="PASS" signature="detectServletVariousInputs()[pri:0, instance:com.h3xstream.findsecbugs.endpoint.ServletEndpointDetectorTest@2df32bf7]" name="detectServletVariousInputs" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectServletVariousInputs -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.endpoint.ServletEndpointDetectorTest@2df32bf7]" name="after" is-config="true" duration-ms="7" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.endpoint.ServletEndpointDetectorTest@2df32bf7]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+      </class> <!-- com.h3xstream.findsecbugs.endpoint.ServletEndpointDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.HttpResponseSplittingDetectorTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.HttpResponseSplittingDetectorTest@1188e820]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="detectResponseSplitting()[pri:0, instance:com.h3xstream.findsecbugs.HttpResponseSplittingDetectorTest@1188e820]" name="detectResponseSplitting" duration-ms="1" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectResponseSplitting -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.HttpResponseSplittingDetectorTest@1188e820]" name="after" is-config="true" duration-ms="9" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- com.h3xstream.findsecbugs.HttpResponseSplittingDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.android.LocalDenialOfServiceDetectorTest">
+        <test-method status="PASS" signature="detectDenialOfService()[pri:0, instance:com.h3xstream.findsecbugs.android.LocalDenialOfServiceDetectorTest@6366ebe0]" name="detectDenialOfService" duration-ms="1" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectDenialOfService -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.android.LocalDenialOfServiceDetectorTest@6366ebe0]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.android.LocalDenialOfServiceDetectorTest@6366ebe0]" name="after" is-config="true" duration-ms="7" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- com.h3xstream.findsecbugs.android.LocalDenialOfServiceDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.file.FileUploadFilenameDetectorTest">
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.file.FileUploadFilenameDetectorTest@70a9f84e]" name="after" is-config="true" duration-ms="9" started-at="2017-09-14T17:15:27Z" finished-at="2017-09-14T17:15:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.file.FileUploadFilenameDetectorTest@70a9f84e]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:27Z" finished-at="2017-09-14T17:15:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="detectTaintedFilename()[pri:0, instance:com.h3xstream.findsecbugs.file.FileUploadFilenameDetectorTest@70a9f84e]" name="detectTaintedFilename" duration-ms="0" started-at="2017-09-14T17:15:27Z" finished-at="2017-09-14T17:15:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectTaintedFilename -->
+      </class> <!-- com.h3xstream.findsecbugs.file.FileUploadFilenameDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.crypto.InsufficientKeySizeRsaDetectorTest">
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.crypto.InsufficientKeySizeRsaDetectorTest@50de0926]" name="after" is-config="true" duration-ms="10" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="detectBadKeySize()[pri:0, instance:com.h3xstream.findsecbugs.crypto.InsufficientKeySizeRsaDetectorTest@50de0926]" name="detectBadKeySize" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectBadKeySize -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.crypto.InsufficientKeySizeRsaDetectorTest@50de0926]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+      </class> <!-- com.h3xstream.findsecbugs.crypto.InsufficientKeySizeRsaDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.injection.http.HttpParameterPollutionDetectorTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.injection.http.HttpParameterPollutionDetectorTest@77a57272]" name="before" is-config="true" duration-ms="1" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="detectHttpParameterPollution()[pri:0, instance:com.h3xstream.findsecbugs.injection.http.HttpParameterPollutionDetectorTest@77a57272]" name="detectHttpParameterPollution" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectHttpParameterPollution -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.injection.http.HttpParameterPollutionDetectorTest@77a57272]" name="after" is-config="true" duration-ms="27" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- com.h3xstream.findsecbugs.injection.http.HttpParameterPollutionDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.crypto.RsaNoPaddingDetectorTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.crypto.RsaNoPaddingDetectorTest@60438a68]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.crypto.RsaNoPaddingDetectorTest@60438a68]" name="after" is-config="true" duration-ms="11" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="detectRsaNoPadding()[pri:0, instance:com.h3xstream.findsecbugs.crypto.RsaNoPaddingDetectorTest@60438a68]" name="detectRsaNoPadding" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectRsaNoPadding -->
+      </class> <!-- com.h3xstream.findsecbugs.crypto.RsaNoPaddingDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.android.WebViewJavascriptInterfaceDetectorTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.android.WebViewJavascriptInterfaceDetectorTest@43d7741f]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.android.WebViewJavascriptInterfaceDetectorTest@43d7741f]" name="after" is-config="true" duration-ms="9" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="detectWebViewJavascriptInterface()[pri:0, instance:com.h3xstream.findsecbugs.android.WebViewJavascriptInterfaceDetectorTest@43d7741f]" name="detectWebViewJavascriptInterface" duration-ms="0" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectWebViewJavascriptInterface -->
+      </class> <!-- com.h3xstream.findsecbugs.android.WebViewJavascriptInterfaceDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.crypto.UnencryptedSocketDetectorTest">
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.crypto.UnencryptedSocketDetectorTest@dbd940d]" name="after" is-config="true" duration-ms="10" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="detectUnencryptedSocket()[pri:0, instance:com.h3xstream.findsecbugs.crypto.UnencryptedSocketDetectorTest@dbd940d]" name="detectUnencryptedSocket" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectUnencryptedSocket -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.crypto.UnencryptedSocketDetectorTest@dbd940d]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+      </class> <!-- com.h3xstream.findsecbugs.crypto.UnencryptedSocketDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.endpoint.JaxWsEndpointDetectorTest">
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.endpoint.JaxWsEndpointDetectorTest@3d8314f0]" name="after" is-config="true" duration-ms="8" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="detectJaxWsEndpoint()[pri:0, instance:com.h3xstream.findsecbugs.endpoint.JaxWsEndpointDetectorTest@3d8314f0]" name="detectJaxWsEndpoint" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectJaxWsEndpoint -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.endpoint.JaxWsEndpointDetectorTest@3d8314f0]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+      </class> <!-- com.h3xstream.findsecbugs.endpoint.JaxWsEndpointDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.jsp.JstlOutDetectorTest">
+        <test-method status="PASS" signature="jspEscape1_safe()[pri:0, instance:com.h3xstream.findsecbugs.jsp.JstlOutDetectorTest@11c20519]" name="jspEscape1_safe" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jspEscape1_safe -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.jsp.JstlOutDetectorTest@11c20519]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="jspEscape4_unknown()[pri:0, instance:com.h3xstream.findsecbugs.jsp.JstlOutDetectorTest@11c20519]" name="jspEscape4_unknown" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jspEscape4_unknown -->
+        <test-method status="PASS" signature="jspEscape2_unsafe()[pri:0, instance:com.h3xstream.findsecbugs.jsp.JstlOutDetectorTest@11c20519]" name="jspEscape2_unsafe" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jspEscape2_unsafe -->
+        <test-method status="PASS" signature="jspEscape3_safe()[pri:0, instance:com.h3xstream.findsecbugs.jsp.JstlOutDetectorTest@11c20519]" name="jspEscape3_safe" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jspEscape3_safe -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.jsp.JstlOutDetectorTest@11c20519]" name="after" is-config="true" duration-ms="8" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- com.h3xstream.findsecbugs.jsp.JstlOutDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.spring.SpringUnvalidatedRedirectDetectorTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.spring.SpringUnvalidatedRedirectDetectorTest@3444d69d]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.spring.SpringUnvalidatedRedirectDetectorTest@3444d69d]" name="after" is-config="true" duration-ms="10" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="detectSpringUnvalidatedRedirect()[pri:0, instance:com.h3xstream.findsecbugs.spring.SpringUnvalidatedRedirectDetectorTest@3444d69d]" name="detectSpringUnvalidatedRedirect" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectSpringUnvalidatedRedirect -->
+      </class> <!-- com.h3xstream.findsecbugs.spring.SpringUnvalidatedRedirectDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.crypto.EcbModeDetectorTest">
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.crypto.EcbModeDetectorTest@51b279c9]" name="after" is-config="true" duration-ms="13" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="detectEcbMode()[pri:0, instance:com.h3xstream.findsecbugs.crypto.EcbModeDetectorTest@51b279c9]" name="detectEcbMode" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectEcbMode -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.crypto.EcbModeDetectorTest@51b279c9]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+      </class> <!-- com.h3xstream.findsecbugs.crypto.EcbModeDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.crypto.UnencryptedServerSocketDetectorTest">
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.crypto.UnencryptedServerSocketDetectorTest@3439f68d]" name="after" is-config="true" duration-ms="7" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.crypto.UnencryptedServerSocketDetectorTest@3439f68d]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="detectUnencryptedSocket()[pri:0, instance:com.h3xstream.findsecbugs.crypto.UnencryptedServerSocketDetectorTest@3439f68d]" name="detectUnencryptedSocket" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectUnencryptedSocket -->
+      </class> <!-- com.h3xstream.findsecbugs.crypto.UnencryptedServerSocketDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.android.BroadcastDetectorTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.android.BroadcastDetectorTest@543e710e]" name="before" is-config="true" duration-ms="1" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="detectSendBroadcast()[pri:0, instance:com.h3xstream.findsecbugs.android.BroadcastDetectorTest@543e710e]" name="detectSendBroadcast" duration-ms="0" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectSendBroadcast -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.android.BroadcastDetectorTest@543e710e]" name="after" is-config="true" duration-ms="33" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- com.h3xstream.findsecbugs.android.BroadcastDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.password.IntuitiveHardcodePasswordDetectorTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.password.IntuitiveHardcodePasswordDetectorTest@282003e1]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.password.IntuitiveHardcodePasswordDetectorTest@282003e1]" name="after" is-config="true" duration-ms="8" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="detectHardCodePasswordsAndKeys()[pri:0, instance:com.h3xstream.findsecbugs.password.IntuitiveHardcodePasswordDetectorTest@282003e1]" name="detectHardCodePasswordsAndKeys" duration-ms="0" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectHardCodePasswordsAndKeys -->
+      </class> <!-- com.h3xstream.findsecbugs.password.IntuitiveHardcodePasswordDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.scala.ScalaSqlInjectionAnormDetectorTest">
+        <test-method status="PASS" signature="detectSqlInjection()[pri:0, instance:com.h3xstream.findsecbugs.scala.ScalaSqlInjectionAnormDetectorTest@1dd02175]" name="detectSqlInjection" duration-ms="1" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectSqlInjection -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.scala.ScalaSqlInjectionAnormDetectorTest@1dd02175]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.scala.ScalaSqlInjectionAnormDetectorTest@1dd02175]" name="after" is-config="true" duration-ms="11" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- com.h3xstream.findsecbugs.scala.ScalaSqlInjectionAnormDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.injection.sql.JdbcInjectionSourceTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.injection.sql.JdbcInjectionSourceTest@32cf48b7]" name="before" is-config="true" duration-ms="1" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="detectBasicJdbcInjection()[pri:0, instance:com.h3xstream.findsecbugs.injection.sql.JdbcInjectionSourceTest@32cf48b7]" name="detectBasicJdbcInjection" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectBasicJdbcInjection -->
+        <test-method status="PASS" signature="detectExecuteExecuteLargeUpdate()[pri:0, instance:com.h3xstream.findsecbugs.injection.sql.JdbcInjectionSourceTest@32cf48b7]" name="detectExecuteExecuteLargeUpdate" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectExecuteExecuteLargeUpdate -->
+        <test-method status="PASS" signature="detectExecutePrepareCall()[pri:0, instance:com.h3xstream.findsecbugs.injection.sql.JdbcInjectionSourceTest@32cf48b7]" name="detectExecutePrepareCall" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectExecutePrepareCall -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.injection.sql.JdbcInjectionSourceTest@32cf48b7]" name="after" is-config="true" duration-ms="10" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="detectPrepareStatement()[pri:0, instance:com.h3xstream.findsecbugs.injection.sql.JdbcInjectionSourceTest@32cf48b7]" name="detectPrepareStatement" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectPrepareStatement -->
+        <test-method status="PASS" signature="detectExecuteUpdate()[pri:0, instance:com.h3xstream.findsecbugs.injection.sql.JdbcInjectionSourceTest@32cf48b7]" name="detectExecuteUpdate" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectExecuteUpdate -->
+        <test-method status="PASS" signature="detectExecuteQuery()[pri:0, instance:com.h3xstream.findsecbugs.injection.sql.JdbcInjectionSourceTest@32cf48b7]" name="detectExecuteQuery" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectExecuteQuery -->
+        <test-method status="PASS" signature="detectNativeSqlAndOther()[pri:0, instance:com.h3xstream.findsecbugs.injection.sql.JdbcInjectionSourceTest@32cf48b7]" name="detectNativeSqlAndOther" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectNativeSqlAndOther -->
+      </class> <!-- com.h3xstream.findsecbugs.injection.sql.JdbcInjectionSourceTest -->
+      <class name="com.h3xstream.findsecbugs.cookie.UrlRewritingDetectorTest">
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.cookie.UrlRewritingDetectorTest@1e4a7dd4]" name="after" is-config="true" duration-ms="13" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.cookie.UrlRewritingDetectorTest@1e4a7dd4]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="detectUrlRewriting()[pri:0, instance:com.h3xstream.findsecbugs.cookie.UrlRewritingDetectorTest@1e4a7dd4]" name="detectUrlRewriting" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectUrlRewriting -->
+      </class> <!-- com.h3xstream.findsecbugs.cookie.UrlRewritingDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.injection.stringbuilder.InjectionWithStringBuilderTest">
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.injection.stringbuilder.InjectionWithStringBuilderTest@17776a8]" name="after" is-config="true" duration-ms="8" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="detectSuspiciousCase()[pri:0, instance:com.h3xstream.findsecbugs.injection.stringbuilder.InjectionWithStringBuilderTest@17776a8]" name="detectSuspiciousCase" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectSuspiciousCase -->
+        <test-method status="PASS" signature="avoidFalsePositive()[pri:0, instance:com.h3xstream.findsecbugs.injection.stringbuilder.InjectionWithStringBuilderTest@17776a8]" name="avoidFalsePositive" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- avoidFalsePositive -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.injection.stringbuilder.InjectionWithStringBuilderTest@17776a8]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+      </class> <!-- com.h3xstream.findsecbugs.injection.stringbuilder.InjectionWithStringBuilderTest -->
+      <class name="com.h3xstream.findsecbugs.xml.XmlStreamReaderDetectorTest">
+        <test-method status="PASS" signature="avoidFP()[pri:0, instance:com.h3xstream.findsecbugs.xml.XmlStreamReaderDetectorTest@12405818]" name="avoidFP" duration-ms="0" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- avoidFP -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.xml.XmlStreamReaderDetectorTest@12405818]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="detectXxe()[pri:0, instance:com.h3xstream.findsecbugs.xml.XmlStreamReaderDetectorTest@12405818]" name="detectXxe" duration-ms="0" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectXxe -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.xml.XmlStreamReaderDetectorTest@12405818]" name="after" is-config="true" duration-ms="11" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- com.h3xstream.findsecbugs.xml.XmlStreamReaderDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.xml.SaxParserSafePropertyTest">
+        <test-method status="PASS" signature="avoidFalsePositiveOnSafeCases()[pri:0, instance:com.h3xstream.findsecbugs.xml.SaxParserSafePropertyTest@6a396c1e]" name="avoidFalsePositiveOnSafeCases" duration-ms="0" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- avoidFalsePositiveOnSafeCases -->
+        <test-method status="PASS" signature="detectUnsafeNoSpecialSettings()[pri:0, instance:com.h3xstream.findsecbugs.xml.SaxParserSafePropertyTest@6a396c1e]" name="detectUnsafeNoSpecialSettings" duration-ms="0" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectUnsafeNoSpecialSettings -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.xml.SaxParserSafePropertyTest@6a396c1e]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.xml.SaxParserSafePropertyTest@6a396c1e]" name="after" is-config="true" duration-ms="7" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- com.h3xstream.findsecbugs.xml.SaxParserSafePropertyTest -->
+      <class name="com.h3xstream.findsecbugs.crypto.HazelcastSymmetricEncryptionDetectorTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.crypto.HazelcastSymmetricEncryptionDetectorTest@7f416310]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.crypto.HazelcastSymmetricEncryptionDetectorTest@7f416310]" name="after" is-config="true" duration-ms="10" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="detectHazelcastSymmetric()[pri:0, instance:com.h3xstream.findsecbugs.crypto.HazelcastSymmetricEncryptionDetectorTest@7f416310]" name="detectHazelcastSymmetric" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectHazelcastSymmetric -->
+      </class> <!-- com.h3xstream.findsecbugs.crypto.HazelcastSymmetricEncryptionDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.password.GoogleApiKeyDetectorTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.password.GoogleApiKeyDetectorTest@701fc37a]" name="before" is-config="true" duration-ms="1" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="detectHardCodeApiKeyWithClassRename()[pri:0, instance:com.h3xstream.findsecbugs.password.GoogleApiKeyDetectorTest@701fc37a]" name="detectHardCodeApiKeyWithClassRename" duration-ms="0" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectHardCodeApiKeyWithClassRename -->
+        <test-method status="PASS" signature="detectHardCodeApiKey()[pri:0, instance:com.h3xstream.findsecbugs.password.GoogleApiKeyDetectorTest@701fc37a]" name="detectHardCodeApiKey" duration-ms="0" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectHardCodeApiKey -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.password.GoogleApiKeyDetectorTest@701fc37a]" name="after" is-config="true" duration-ms="9" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- com.h3xstream.findsecbugs.password.GoogleApiKeyDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.scala.ScalaSqlInjectionSlickDetectorTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.scala.ScalaSqlInjectionSlickDetectorTest@31206beb]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="detectSqlInjection()[pri:0, instance:com.h3xstream.findsecbugs.scala.ScalaSqlInjectionSlickDetectorTest@31206beb]" name="detectSqlInjection" duration-ms="1" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectSqlInjection -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.scala.ScalaSqlInjectionSlickDetectorTest@31206beb]" name="after" is-config="true" duration-ms="13" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- com.h3xstream.findsecbugs.scala.ScalaSqlInjectionSlickDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.injection.sql.SpringPreparedStatementCreatorFactoryTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.injection.sql.SpringPreparedStatementCreatorFactoryTest@799d4f69]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.injection.sql.SpringPreparedStatementCreatorFactoryTest@799d4f69]" name="after" is-config="true" duration-ms="11" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="detectJdbcInjection()[pri:0, instance:com.h3xstream.findsecbugs.injection.sql.SpringPreparedStatementCreatorFactoryTest@799d4f69]" name="detectJdbcInjection" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectJdbcInjection -->
+      </class> <!-- com.h3xstream.findsecbugs.injection.sql.SpringPreparedStatementCreatorFactoryTest -->
+      <class name="com.h3xstream.findsecbugs.PermissiveCORSDetectorTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.PermissiveCORSDetectorTest@7fad8c79]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="detectPermissiveCORS()[pri:0, instance:com.h3xstream.findsecbugs.PermissiveCORSDetectorTest@7fad8c79]" name="detectPermissiveCORS" duration-ms="0" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectPermissiveCORS -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.PermissiveCORSDetectorTest@7fad8c79]" name="after" is-config="true" duration-ms="8" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- com.h3xstream.findsecbugs.PermissiveCORSDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.serial.ObjectDeserializationDetectorTest">
+        <test-method status="PASS" signature="avoidReadObjectFalsePositive()[pri:0, instance:com.h3xstream.findsecbugs.serial.ObjectDeserializationDetectorTest@120d6fe6]" name="avoidReadObjectFalsePositive" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- avoidReadObjectFalsePositive -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.serial.ObjectDeserializationDetectorTest@120d6fe6]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="detectObjectDeserializationClassLoaderObjectInputStream()[pri:0, instance:com.h3xstream.findsecbugs.serial.ObjectDeserializationDetectorTest@120d6fe6]" name="detectObjectDeserializationClassLoaderObjectInputStream" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectObjectDeserializationClassLoaderObjectInputStream -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.serial.ObjectDeserializationDetectorTest@120d6fe6]" name="after" is-config="true" duration-ms="10" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="detectObjectDeserialization()[pri:0, instance:com.h3xstream.findsecbugs.serial.ObjectDeserializationDetectorTest@120d6fe6]" name="detectObjectDeserialization" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectObjectDeserialization -->
+      </class> <!-- com.h3xstream.findsecbugs.serial.ObjectDeserializationDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.cookie.CookieReadDetectorTest">
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.cookie.CookieReadDetectorTest@1d7acb34]" name="after" is-config="true" duration-ms="13" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="detectCookieUsage()[pri:0, instance:com.h3xstream.findsecbugs.cookie.CookieReadDetectorTest@1d7acb34]" name="detectCookieUsage" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectCookieUsage -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.cookie.CookieReadDetectorTest@1d7acb34]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+      </class> <!-- com.h3xstream.findsecbugs.cookie.CookieReadDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.injection.sql.JpaInjectionSourceTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.injection.sql.JpaInjectionSourceTest@d6da883]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="detectJpaInjection()[pri:0, instance:com.h3xstream.findsecbugs.injection.sql.JpaInjectionSourceTest@d6da883]" name="detectJpaInjection" duration-ms="1" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectJpaInjection -->
+        <test-method status="PASS" signature="detectJpaInjectionInNativeQuery()[pri:0, instance:com.h3xstream.findsecbugs.injection.sql.JpaInjectionSourceTest@d6da883]" name="detectJpaInjectionInNativeQuery" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectJpaInjectionInNativeQuery -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.injection.sql.JpaInjectionSourceTest@d6da883]" name="after" is-config="true" duration-ms="11" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- com.h3xstream.findsecbugs.injection.sql.JpaInjectionSourceTest -->
+      <class name="com.h3xstream.findsecbugs.common.ByteCodeTest">
+        <test-method status="PASS" signature="probeByteCodeDebug()[pri:0, instance:com.h3xstream.findsecbugs.common.ByteCodeTest@27fe3806]" name="probeByteCodeDebug" duration-ms="158" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- probeByteCodeDebug -->
+      </class> <!-- com.h3xstream.findsecbugs.common.ByteCodeTest -->
+      <class name="com.h3xstream.findsecbugs.xml.XxeDetectorTest">
+        <test-method status="PASS" signature="detectXxeFromDocumentBuilder()[pri:0, instance:com.h3xstream.findsecbugs.xml.XxeDetectorTest@314c508a]" name="detectXxeFromDocumentBuilder" duration-ms="1" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectXxeFromDocumentBuilder -->
+        <test-method status="PASS" signature="detectXxe()[pri:0, instance:com.h3xstream.findsecbugs.xml.XxeDetectorTest@314c508a]" name="detectXxe" duration-ms="0" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectXxe -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.xml.XxeDetectorTest@314c508a]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="safeWithUseOfEntityResolver()[pri:0, instance:com.h3xstream.findsecbugs.xml.XxeDetectorTest@314c508a]" name="safeWithUseOfEntityResolver" duration-ms="0" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- safeWithUseOfEntityResolver -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.xml.XxeDetectorTest@314c508a]" name="after" is-config="true" duration-ms="25" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="safeWithUseOfPrivilegeExceptionAction()[pri:0, instance:com.h3xstream.findsecbugs.xml.XxeDetectorTest@314c508a]" name="safeWithUseOfPrivilegeExceptionAction" duration-ms="0" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- safeWithUseOfPrivilegeExceptionAction -->
+      </class> <!-- com.h3xstream.findsecbugs.xml.XxeDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.crypto.CustomMessageDigestDetectorTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.crypto.CustomMessageDigestDetectorTest@5e57643e]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="detectCustomDigest()[pri:0, instance:com.h3xstream.findsecbugs.crypto.CustomMessageDigestDetectorTest@5e57643e]" name="detectCustomDigest" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectCustomDigest -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.crypto.CustomMessageDigestDetectorTest@5e57643e]" name="after" is-config="true" duration-ms="11" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- com.h3xstream.findsecbugs.crypto.CustomMessageDigestDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.template.FreemarkerDetectorTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.template.FreemarkerDetectorTest@25359ed8]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.template.FreemarkerDetectorTest@25359ed8]" name="after" is-config="true" duration-ms="16" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="allSignatures()[pri:0, instance:com.h3xstream.findsecbugs.template.FreemarkerDetectorTest@25359ed8]" name="allSignatures" duration-ms="0" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allSignatures -->
+        <test-method status="PASS" signature="basicUsagesTesting()[pri:0, instance:com.h3xstream.findsecbugs.template.FreemarkerDetectorTest@25359ed8]" name="basicUsagesTesting" duration-ms="0" started-at="2017-09-14T17:15:25Z" finished-at="2017-09-14T17:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basicUsagesTesting -->
+      </class> <!-- com.h3xstream.findsecbugs.template.FreemarkerDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.crypto.InsecureSmtpSslDetectorTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.crypto.InsecureSmtpSslDetectorTest@1cab0bfb]" name="before" is-config="true" duration-ms="1" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="detectBadKeySize()[pri:0, instance:com.h3xstream.findsecbugs.crypto.InsecureSmtpSslDetectorTest@1cab0bfb]" name="detectBadKeySize" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectBadKeySize -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.crypto.InsecureSmtpSslDetectorTest@1cab0bfb]" name="after" is-config="true" duration-ms="10" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- com.h3xstream.findsecbugs.crypto.InsecureSmtpSslDetectorTest -->
+      <class name="com.h3xstream.findsecbugs.endpoint.SpringMvcEndpointDetectorTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.h3xstream.findsecbugs.endpoint.SpringMvcEndpointDetectorTest@530612ba]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="detectSpringController()[pri:0, instance:com.h3xstream.findsecbugs.endpoint.SpringMvcEndpointDetectorTest@530612ba]" name="detectSpringController" duration-ms="0" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectSpringController -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.h3xstream.findsecbugs.endpoint.SpringMvcEndpointDetectorTest@530612ba]" name="after" is-config="true" duration-ms="8" started-at="2017-09-14T17:15:26Z" finished-at="2017-09-14T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- com.h3xstream.findsecbugs.endpoint.SpringMvcEndpointDetectorTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

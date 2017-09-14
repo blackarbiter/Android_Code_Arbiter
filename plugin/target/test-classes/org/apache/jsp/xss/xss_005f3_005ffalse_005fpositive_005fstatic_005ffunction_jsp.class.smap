@@ -1,0 +1,14 @@
+SMAP
+xss_005f3_005ffalse_005fpositive_005fstatic_005ffunction_jsp.java
+JSP
+*S JSP
+*F
++ 0 xss_3_false_positive_static_function.jsp
+xss/xss_3_false_positive_static_function.jsp
+*L
+2,6:110
+7,2:116,0
+9:118
+10:120
+11:122
+*E

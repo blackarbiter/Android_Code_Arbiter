@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="0" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.h3xstream.findbugs.test.BaseDetectorTest" duration-ms="3" started-at="2017-09-14T09:15:17Z" finished-at="2017-09-14T09:15:17Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="3" started-at="2017-09-14T09:15:17Z" finished-at="2017-09-14T09:15:17Z">
+    </test> <!-- Command line test -->
+  </suite> <!-- com.h3xstream.findbugs.test.BaseDetectorTest -->
+</testng-results>

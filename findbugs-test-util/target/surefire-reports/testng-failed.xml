@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [com.h3xstream.findbugs.test.BaseDetectorTest]">
+  <test name="Command line test" preserve-order="false">
+    <classes>
+      <class name="com.h3xstream.findbugs.test.BaseDetectorTest"/>
+    </classes>
+  </test> <!-- Command line test -->
+</suite> <!-- Failed suite [com.h3xstream.findbugs.test.BaseDetectorTest] -->

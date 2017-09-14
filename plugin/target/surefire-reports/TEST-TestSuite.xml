@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="2.417" tests="195" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.74-b02"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/lee/Documents/source_scan/find-sec-bugs-master"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/lee/Documents/source_scan/find-sec-bugs-master"/>
+    <property name="java.runtime.version" value="1.8.0_74-b02"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/_0/cjrf1wwn4ys4zyrj578cgzjh0000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/usr/local/apache-maven-3.3.9/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/lee/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.11.6"/>
+    <property name="http.nonProxyHosts" value="local„ÄÅ169.254/16|*.local„ÄÅ169.254/16"/>
+    <property name="user.home" value="/Users/lee"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="lee"/>
+    <property name="java.class.path" value="/usr/local/apache-maven-3.3.9/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_74"/>
+    <property name="java.ext.dirs" value="/Users/lee/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/usr/local/apache-maven-3.3.9"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local„ÄÅ169.254/16|*.local„ÄÅ169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local„ÄÅ169.254/16|*.local„ÄÅ169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="detectAnonymousLdapBind" classname="com.h3xstream.findsecbugs.ldap.AnonymousLdapDetectorTest" time="0"/>
+  <testcase name="detectSendBroadcast" classname="com.h3xstream.findsecbugs.android.BroadcastDetectorTest" time="0"/>
+  <testcase name="allSignatures" classname="com.h3xstream.findsecbugs.template.FreemarkerDetectorTest" time="0"/>
+  <testcase name="basicUsagesTesting" classname="com.h3xstream.findsecbugs.template.FreemarkerDetectorTest" time="0"/>
+  <testcase name="detectResponseSplitting" classname="com.h3xstream.findsecbugs.HttpResponseSplittingDetectorTest" time="0"/>
+  <testcase name="avoidFalsePositive" classname="com.h3xstream.findsecbugs.xml.XmlReaderDetectorTest" time="0"/>
+  <testcase name="detectXxe" classname="com.h3xstream.findsecbugs.xml.XmlReaderDetectorTest" time="0"/>
+  <testcase name="detectIbmPortlet" classname="com.h3xstream.findsecbugs.xss.XssPortletDetectorTest" time="0"/>
+  <testcase name="detectPortlet" classname="com.h3xstream.findsecbugs.xss.XssPortletDetectorTest" time="0"/>
+  <testcase name="avoidResourceBundle" classname="com.h3xstream.findsecbugs.xss.XssResourceBundleTest" time="0"/>
+  <testcase name="detectAwsQueryInjection" classname="com.h3xstream.findsecbugs.injection.aws.AwsQueryInjectionDetectorTest" time="0"/>
+  <testcase name="detectExternalFileAccess" classname="com.h3xstream.findsecbugs.android.ExternalFileAccessDetectorTest" time="0"/>
+  <testcase name="detectAnonymousLdapBind" classname="com.h3xstream.findsecbugs.ldap.LdapEntryPoisoningDetectorTest" time="0"/>
+  <testcase name="allSignatures" classname="com.h3xstream.findsecbugs.template.VelocityDetectorTest" time="0"/>
+  <testcase name="avoidBasicFalsePositive" classname="com.h3xstream.findsecbugs.template.VelocityDetectorTest" time="0"/>
+  <testcase name="basicUsagesTesting" classname="com.h3xstream.findsecbugs.template.VelocityDetectorTest" time="0"/>
+  <testcase name="avoidFP" classname="com.h3xstream.findsecbugs.xml.XmlStreamReaderDetectorTest" time="0"/>
+  <testcase name="detectXxe" classname="com.h3xstream.findsecbugs.xml.XmlStreamReaderDetectorTest" time="0"/>
+  <testcase name="detectBeanInjection" classname="com.h3xstream.findsecbugs.injection.beans.BeanInjectionDetectorTest" time="0"/>
+  <testcase name="detectGeolocationFromWebView" classname="com.h3xstream.findsecbugs.android.GeolocationDetectorTest" time="0"/>
+  <testcase name="detectAnonymousLdapBind" classname="com.h3xstream.findsecbugs.ldap.SpringLdapInjectionTest" time="0"/>
+  <testcase name="detectUnvalidatedRedirect" classname="com.h3xstream.findsecbugs.UnvalidatedRedirectDetectorTest" time="0"/>
+  <testcase name="detectXxe" classname="com.h3xstream.findsecbugs.xml.XxeDetectorTest" time="0"/>
+  <testcase name="detectXxeFromDocumentBuilder" classname="com.h3xstream.findsecbugs.xml.XxeDetectorTest" time="0"/>
+  <testcase name="safeWithUseOfEntityResolver" classname="com.h3xstream.findsecbugs.xml.XxeDetectorTest" time="0"/>
+  <testcase name="safeWithUseOfPrivilegeExceptionAction" classname="com.h3xstream.findsecbugs.xml.XxeDetectorTest" time="0"/>
+  <testcase name="avoidFalsePositive" classname="com.h3xstream.findsecbugs.injection.command.CommandInjectionDetectorAdvancedTest" time="0"/>
+  <testcase name="detectSuspicious" classname="com.h3xstream.findsecbugs.injection.command.CommandInjectionDetectorAdvancedTest" time="0"/>
+  <testcase name="detectHardCodePasswordsAndKeys" classname="com.h3xstream.findsecbugs.password.ConstantPasswordDetectorTest" time="0"/>
+  <testcase name="detectDenialOfService" classname="com.h3xstream.findsecbugs.android.LocalDenialOfServiceDetectorTest" time="0"/>
+  <testcase name="detectWeakFilenameUtils" classname="com.h3xstream.findsecbugs.WeakFilenameUtilsMethodDetectorTest" time="0"/>
+  <testcase name="detectXmlDecoder" classname="com.h3xstream.findsecbugs.XmlDecoderDetectorTest" time="0"/>
+  <testcase name="detectCommandInjection" classname="com.h3xstream.findsecbugs.injection.command.CommandInjectionDetectorTest" time="0"/>
+  <testcase name="avoidFalsePositiveOnSafeConfiguration" classname="com.h3xstream.findsecbugs.xml.DocumentBuilderSafePropertyTest" time="0"/>
+  <testcase name="detectUnsafeNoSpecialSettings" classname="com.h3xstream.findsecbugs.xml.DocumentBuilderSafePropertyTest" time="0"/>
+  <testcase name="detectUnsafePartialConfiguration" classname="com.h3xstream.findsecbugs.xml.DocumentBuilderSafePropertyTest" time="0"/>
+  <testcase name="detectHardCodeApiKey" classname="com.h3xstream.findsecbugs.password.GoogleApiKeyDetectorTest" time="0"/>
+  <testcase name="detectHardCodeApiKeyWithClassRename" classname="com.h3xstream.findsecbugs.password.GoogleApiKeyDetectorTest" time="0"/>
+  <testcase name="detectPrintln" classname="com.h3xstream.findsecbugs.android.PrintlnUseDetectorTest" time="0"/>
+  <testcase name="detectXPathInjectionApache" classname="com.h3xstream.findsecbugs.xpath.XPathApacheXmlSecTest" time="0"/>
+  <testcase name="detectResponseSplitting" classname="com.h3xstream.findsecbugs.injection.crlf.CrlfLogInjectionDetectorTest" time="0"/>
+  <testcase name="detectHardCodeCredentials" classname="com.h3xstream.findsecbugs.password.HardcodePasswordInMapDetectorTest" time="0"/>
+  <testcase name="detectHardCodeCredentialsVariousMap" classname="com.h3xstream.findsecbugs.password.HardcodePasswordInMapDetectorTest" time="0"/>
+  <testcase name="avoidFalsePositiveOnSafeCases" classname="com.h3xstream.findsecbugs.xml.SaxParserSafePropertyTest" time="0"/>
+  <testcase name="detectUnsafeNoSpecialSettings" classname="com.h3xstream.findsecbugs.xml.SaxParserSafePropertyTest" time="0"/>
+  <testcase name="detectWebViewJavascriptEnabled" classname="com.h3xstream.findsecbugs.android.WebViewJavascriptEnabledDetectorTest" time="0"/>
+  <testcase name="detectXPathInjectionApache" classname="com.h3xstream.findsecbugs.xpath.XPathInjectionApacheXPathApiDetectorTest" time="0"/>
+  <testcase name="detectInjection" classname="com.h3xstream.findsecbugs.injection.custom.CustomInjectionDetectorTest" time="0"/>
+  <testcase name="detectHardCodePasswordsAndKeys" classname="com.h3xstream.findsecbugs.password.IntuitiveHardcodePasswordDetectorTest" time="0"/>
+  <testcase name="detectWebViewJavascriptInterface" classname="com.h3xstream.findsecbugs.android.WebViewJavascriptInterfaceDetectorTest" time="0.001"/>
+  <testcase name="detectXPathInjectionJavax" classname="com.h3xstream.findsecbugs.xpath.XPathInjectionJavaxDetectorTest" time="0"/>
+  <testcase name="detectFileDisclosure" classname="com.h3xstream.findsecbugs.injection.fileDisclosure.FileDisclosureDetectorTest" time="0"/>
+  <testcase name="detectPermissiveCORS" classname="com.h3xstream.findsecbugs.PermissiveCORSDetectorTest" time="0"/>
+  <testcase name="detectWorldWritableHandle" classname="com.h3xstream.findsecbugs.android.WorldWritableDetectorTest" time="0"/>
+  <testcase name="detectFormatStringManipulation" classname="com.h3xstream.findsecbugs.injection.formatter.FormatStringManipulationDetectorTest" time="0.001"/>
+  <testcase name="detectSecureFlagCookieBasic" classname="com.h3xstream.findsecbugs.bugs.OutOfBoundMutableTest" time="0"/>
+  <testcase name="detectUsePredictableRandom" classname="com.h3xstream.findsecbugs.PredictableRandomDetectorScalaTest" time="0"/>
+  <testcase name="probeByteCodeDebug" classname="com.h3xstream.findsecbugs.common.ByteCodeTest" time="0.158"/>
+  <testcase name="detectHttpParameterPollution" classname="com.h3xstream.findsecbugs.injection.http.HttpParameterPollutionDetectorTest" time="0"/>
+  <testcase name="detectUsePredictableRandom" classname="com.h3xstream.findsecbugs.PredictableRandomDetectorTest" time="0"/>
+  <testcase name="avoidHttpOnlyBasicFalsePositive" classname="com.h3xstream.findsecbugs.cookie.CookieFlagsDetectorTest" time="0"/>
+  <testcase name="avoidSecureFlagBasicFalsePositive" classname="com.h3xstream.findsecbugs.cookie.CookieFlagsDetectorTest" time="0"/>
+  <testcase name="detectHttpOnlyCookieBasic" classname="com.h3xstream.findsecbugs.cookie.CookieFlagsDetectorTest" time="0"/>
+  <testcase name="detectSecureFlagCookieBasic" classname="com.h3xstream.findsecbugs.cookie.CookieFlagsDetectorTest" time="0"/>
+  <testcase name="detectLdapInjectionEdgeCase" classname="com.h3xstream.findsecbugs.injection.ldap.JndiLdapInjectionSourceAdditionalSignaturesTest" time="0"/>
+  <testcase name="detectLdapInjectionInQuery" classname="com.h3xstream.findsecbugs.injection.ldap.JndiLdapInjectionSourceAdditionalSignaturesTest" time="0"/>
+  <testcase name="detectLdapInjectionInQuerySunApi" classname="com.h3xstream.findsecbugs.injection.ldap.JndiLdapInjectionSourceAdditionalSignaturesTest" time="0"/>
+  <testcase name="analyseSafePattern" classname="com.h3xstream.findsecbugs.ReDosDetectorTest" time="0"/>
+  <testcase name="analyseSuspectPattern" classname="com.h3xstream.findsecbugs.ReDosDetectorTest" time="0"/>
+  <testcase name="detectRedosInCode" classname="com.h3xstream.findsecbugs.ReDosDetectorTest" time="0"/>
+  <testcase name="detectCookieUsage" classname="com.h3xstream.findsecbugs.cookie.CookieReadDetectorTest" time="0"/>
+  <testcase name="detectLdapInjectionInQuery" classname="com.h3xstream.findsecbugs.injection.ldap.JndiLdapInjectionSourceTest" time="0"/>
+  <testcase name="detectUsePredictableRandom" classname="com.h3xstream.findsecbugs.scala.PlayUnvalidatedRedirectDetectorTest" time="0"/>
+  <testcase name="detectPersistentCookieUsage" classname="com.h3xstream.findsecbugs.cookie.PersistentCookieDetectorTest" time="0"/>
+  <testcase name="detectCommandInjection" classname="com.h3xstream.findsecbugs.scala.ScalaCommandInjectionDetectorTest" time="0"/>
+  <testcase name="detectLdapInjection" classname="com.h3xstream.findsecbugs.injection.ldap.UnboundIdLdapInjectionSourceTest" time="0"/>
+  <testcase name="detectInjection" classname="com.h3xstream.findsecbugs.injection.script.ElInjectionTest" time="0"/>
+  <testcase name="detectCommandInjection" classname="com.h3xstream.findsecbugs.scala.ScalaPathTraversalDetectorTest" time="0"/>
+  <testcase name="detectUrlRewriting" classname="com.h3xstream.findsecbugs.cookie.UrlRewritingDetectorTest" time="0"/>
+  <testcase name="detectBadHexa" classname="com.h3xstream.findsecbugs.crypto.BadHexadecimalConversionDetectorTest" time="0"/>
+  <testcase name="detectOgnlReflectionProvider" classname="com.h3xstream.findsecbugs.injection.script.OgnlInjectionDetectorTest" time="0"/>
+  <testcase name="detectOgnlUtil" classname="com.h3xstream.findsecbugs.injection.script.OgnlInjectionDetectorTest" time="0"/>
+  <testcase name="detectTextParser" classname="com.h3xstream.findsecbugs.injection.script.OgnlInjectionDetectorTest" time="0"/>
+  <testcase name="detectSensitiveDataExposure" classname="com.h3xstream.findsecbugs.scala.ScalaSensitiveDataExposureDetectorTest" time="0"/>
+  <testcase name="detectNoIntegrity" classname="com.h3xstream.findsecbugs.crypto.CipherWithNoIntegrityDetectorTest" time="0"/>
+  <testcase name="detectSqlInjection" classname="com.h3xstream.findsecbugs.scala.ScalaSqlInjectionAnormDetectorTest" time="0"/>
+  <testcase name="detectInjection" classname="com.h3xstream.findsecbugs.injection.script.ScriptEngineInjectionTest" time="0"/>
+  <testcase name="detectCustomDigest" classname="com.h3xstream.findsecbugs.crypto.CustomMessageDigestDetectorTest" time="0"/>
+  <testcase name="detectSqlInjection" classname="com.h3xstream.findsecbugs.scala.ScalaSqlInjectionSlickDetectorTest" time="0"/>
+  <testcase name="detectInjection" classname="com.h3xstream.findsecbugs.injection.script.SeamLoggingDetectionTest" time="0"/>
+  <testcase name="detectDesCipher" classname="com.h3xstream.findsecbugs.crypto.DesUsageDetectorTest" time="0"/>
+  <testcase name="detectDesKeyGeneration" classname="com.h3xstream.findsecbugs.crypto.DesUsageDetectorTest" time="0"/>
+  <testcase name="detectXssInController" classname="com.h3xstream.findsecbugs.scala.ScalaXssDetectorTest" time="0"/>
+  <testcase name="detectInjection" classname="com.h3xstream.findsecbugs.injection.script.SpelInjectionTest" time="0"/>
+  <testcase name="detectEcbMode" classname="com.h3xstream.findsecbugs.crypto.EcbModeDetectorTest" time="0"/>
+  <testcase name="validateSinks" classname="com.h3xstream.findsecbugs.injection.SinkFilesValidationTest" time="0"/>
+  <testcase name="detectSslDisabler" classname="com.h3xstream.findsecbugs.scala.SslDisablerDetectorTest" time="0"/>
+  <testcase name="detectAndroidContentProviderInjection" classname="com.h3xstream.findsecbugs.injection.sql.AndroidInjectionSourceTest" time="0"/>
+  <testcase name="detectAndroidCustomContentProvider" classname="com.h3xstream.findsecbugs.injection.sql.AndroidInjectionSourceTest" time="0"/>
+  <testcase name="detectAndroidInjection" classname="com.h3xstream.findsecbugs.injection.sql.AndroidInjectionSourceTest" time="0"/>
+  <testcase name="detectEcryptor" classname="com.h3xstream.findsecbugs.crypto.EsapiEncryptorDetectorTest" time="0"/>
+  <testcase name="detectSSRFInController" classname="com.h3xstream.findsecbugs.scala.SSRFDetectorTest" time="0"/>
+  <testcase name="detectCommonsCollectionGadget" classname="com.h3xstream.findsecbugs.serial.DeserializationGadgetDetectorTest" time="0"/>
+  <testcase name="detectGroovyGadget" classname="com.h3xstream.findsecbugs.serial.DeserializationGadgetDetectorTest" time="0"/>
+  <testcase name="detectSpringGadget" classname="com.h3xstream.findsecbugs.serial.DeserializationGadgetDetectorTest" time="0"/>
+  <testcase name="detectHazelcastSymmetric" classname="com.h3xstream.findsecbugs.crypto.HazelcastSymmetricEncryptionDetectorTest" time="0"/>
+  <testcase name="detectHibernateInjection" classname="com.h3xstream.findsecbugs.injection.sql.HibernateInjectionSourceTest" time="0"/>
+  <testcase name="detectBadKeySize" classname="com.h3xstream.findsecbugs.crypto.InsecureSmtpSslDetectorTest" time="0"/>
+  <testcase name="detectBasicJdbcInjection" classname="com.h3xstream.findsecbugs.injection.sql.JdbcInjectionSourceTest" time="0"/>
+  <testcase name="detectExecuteExecuteLargeUpdate" classname="com.h3xstream.findsecbugs.injection.sql.JdbcInjectionSourceTest" time="0"/>
+  <testcase name="detectExecutePrepareCall" classname="com.h3xstream.findsecbugs.injection.sql.JdbcInjectionSourceTest" time="0.001"/>
+  <testcase name="detectExecuteQuery" classname="com.h3xstream.findsecbugs.injection.sql.JdbcInjectionSourceTest" time="0"/>
+  <testcase name="detectExecuteUpdate" classname="com.h3xstream.findsecbugs.injection.sql.JdbcInjectionSourceTest" time="0"/>
+  <testcase name="detectNativeSqlAndOther" classname="com.h3xstream.findsecbugs.injection.sql.JdbcInjectionSourceTest" time="0"/>
+  <testcase name="detectPrepareStatement" classname="com.h3xstream.findsecbugs.injection.sql.JdbcInjectionSourceTest" time="0"/>
+  <testcase name="avoidReadObjectFalsePositive" classname="com.h3xstream.findsecbugs.serial.ObjectDeserializationDetectorTest" time="0.001"/>
+  <testcase name="detectObjectDeserialization" classname="com.h3xstream.findsecbugs.serial.ObjectDeserializationDetectorTest" time="0"/>
+  <testcase name="detectObjectDeserializationClassLoaderObjectInputStream" classname="com.h3xstream.findsecbugs.serial.ObjectDeserializationDetectorTest" time="0"/>
+  <testcase name="detectBadKeySize" classname="com.h3xstream.findsecbugs.crypto.InsufficientKeySizeBlowfishDetectorTest" time="0"/>
+  <testcase name="detectJdoInjectionInFilters" classname="com.h3xstream.findsecbugs.injection.sql.JdoInjectionSourceFilterTest" time="0"/>
+  <testcase name="avoidJacksonFalsePositive" classname="com.h3xstream.findsecbugs.serial.UnsafeJacksonDeserializationDetectorTest" time="0"/>
+  <testcase name="testJacksonDeserialization" classname="com.h3xstream.findsecbugs.serial.UnsafeJacksonDeserializationDetectorTest" time="0"/>
+  <testcase name="detectBadKeySize" classname="com.h3xstream.findsecbugs.crypto.InsufficientKeySizeRsaDetectorTest" time="0"/>
+  <testcase name="detectJdoInjection" classname="com.h3xstream.findsecbugs.injection.sql.JdoInjectionSourceTest" time="0"/>
+  <testcase name="detectSpringUnvalidatedRedirect" classname="com.h3xstream.findsecbugs.spring.SpringUnvalidatedRedirectDetectorTest" time="0"/>
+  <testcase name="detectJpaInjection" classname="com.h3xstream.findsecbugs.injection.sql.JpaInjectionSourceTest" time="0"/>
+  <testcase name="detectJpaInjectionInNativeQuery" classname="com.h3xstream.findsecbugs.injection.sql.JpaInjectionSourceTest" time="0"/>
+  <testcase name="detectNullCipher" classname="com.h3xstream.findsecbugs.crypto.NullCipherDetectorTest" time="0.001"/>
+  <testcase name="strutsFormWithValidation" classname="com.h3xstream.findsecbugs.StrutsValidatorFormDetectorTest" time="0"/>
+  <testcase name="strutsFormWithoutValidation1" classname="com.h3xstream.findsecbugs.StrutsValidatorFormDetectorTest" time="0"/>
+  <testcase name="strutsFormWithoutValidation2" classname="com.h3xstream.findsecbugs.StrutsValidatorFormDetectorTest" time="0"/>
+  <testcase name="testSafeTestCases" classname="com.h3xstream.findsecbugs.taintanalysis.JaxRsAnnotatedControllerTest" time="0"/>
+  <testcase name="detectRsaNoPadding" classname="com.h3xstream.findsecbugs.crypto.RsaNoPaddingDetectorTest" time="0"/>
+  <testcase name="detectBasicSpringJdbcInjection" classname="com.h3xstream.findsecbugs.injection.sql.SpringJdbcOperationsAndTemplateTest" time="0"/>
+  <testcase name="detectBatchUpdate" classname="com.h3xstream.findsecbugs.injection.sql.SpringJdbcOperationsAndTemplateTest" time="0"/>
+  <testcase name="detectExecute" classname="com.h3xstream.findsecbugs.injection.sql.SpringJdbcOperationsAndTemplateTest" time="0"/>
+  <testcase name="detectQuery" classname="com.h3xstream.findsecbugs.injection.sql.SpringJdbcOperationsAndTemplateTest" time="0"/>
+  <testcase name="detectQueryForList" classname="com.h3xstream.findsecbugs.injection.sql.SpringJdbcOperationsAndTemplateTest" time="0.001"/>
+  <testcase name="detectQueryForMap" classname="com.h3xstream.findsecbugs.injection.sql.SpringJdbcOperationsAndTemplateTest" time="0"/>
+  <testcase name="detectQueryForObject" classname="com.h3xstream.findsecbugs.injection.sql.SpringJdbcOperationsAndTemplateTest" time="0"/>
+  <testcase name="detectQueryForRowSet" classname="com.h3xstream.findsecbugs.injection.sql.SpringJdbcOperationsAndTemplateTest" time="0"/>
+  <testcase name="detectQueryInt" classname="com.h3xstream.findsecbugs.injection.sql.SpringJdbcOperationsAndTemplateTest" time="0"/>
+  <testcase name="detectQueryLong" classname="com.h3xstream.findsecbugs.injection.sql.SpringJdbcOperationsAndTemplateTest" time="0"/>
+  <testcase name="detectJdbcInjection" classname="com.h3xstream.findsecbugs.injection.sql.SpringPreparedStatementCreatorFactoryTest" time="0"/>
+  <testcase name="avoidFalsePositiveDecrypt" classname="com.h3xstream.findsecbugs.crypto.StaticIvDetectorTest" time="0"/>
+  <testcase name="avoidFalsePositiveGenerateWithKeyGenerator" classname="com.h3xstream.findsecbugs.crypto.StaticIvDetectorTest" time="0"/>
+  <testcase name="avoidFalsePositiveSecRandom" classname="com.h3xstream.findsecbugs.crypto.StaticIvDetectorTest" time="0"/>
+  <testcase name="detectConstantIv" classname="com.h3xstream.findsecbugs.crypto.StaticIvDetectorTest" time="0"/>
+  <testcase name="detectStaticIv" classname="com.h3xstream.findsecbugs.crypto.StaticIvDetectorTest" time="0"/>
+  <testcase name="testSafeTestCases" classname="com.h3xstream.findsecbugs.taintanalysis.TaintAnalysisTaintedByAnnotationTest" time="0"/>
+  <testcase name="testUnsafeTestCases" classname="com.h3xstream.findsecbugs.taintanalysis.TaintAnalysisTaintedByAnnotationTest" time="0"/>
+  <testcase name="testVariousTaintedAnnotations" classname="com.h3xstream.findsecbugs.taintanalysis.TaintAnalysisTaintedByAnnotationTest" time="0"/>
+  <testcase name="detectInjection" classname="com.h3xstream.findsecbugs.injection.sql.SqlMethodUnknownSourceTest" time="0"/>
+  <testcase name="detectUnencryptedSocket" classname="com.h3xstream.findsecbugs.crypto.UnencryptedServerSocketDetectorTest" time="0"/>
+  <testcase name="detectInjection" classname="com.h3xstream.findsecbugs.injection.sql.TorqueSqlDetectorTest" time="0"/>
+  <testcase name="detectUnencryptedSocket" classname="com.h3xstream.findsecbugs.crypto.UnencryptedSocketDetectorTest" time="0"/>
+  <testcase name="detectInjection" classname="com.h3xstream.findsecbugs.injection.sql.TurbineSqlDetectorTest" time="0"/>
+  <testcase name="detectWeakDigest" classname="com.h3xstream.findsecbugs.crypto.WeakMessageDigestDetectorTest" time="0"/>
+  <testcase name="detectWeakDigestAdditionalSignatures" classname="com.h3xstream.findsecbugs.crypto.WeakMessageDigestDetectorTest" time="0"/>
+  <testcase name="detectWeakDigestApache" classname="com.h3xstream.findsecbugs.crypto.WeakMessageDigestDetectorTest" time="0"/>
+  <testcase name="avoidFalsePositive" classname="com.h3xstream.findsecbugs.injection.stringbuilder.InjectionWithStringBuilderTest" time="0"/>
+  <testcase name="detectSuspiciousCase" classname="com.h3xstream.findsecbugs.injection.stringbuilder.InjectionWithStringBuilderTest" time="0"/>
+  <testcase name="detectWeakTLS" classname="com.h3xstream.findsecbugs.crypto.WeakTLSDetectorTest" time="0"/>
+  <testcase name="detectTBV" classname="com.h3xstream.findsecbugs.injection.trust.TrustBoundaryViolationDetectorTest" time="0"/>
+  <testcase name="detectWeakHostnameVerifier" classname="com.h3xstream.findsecbugs.crypto.WeakTrustManagerDetectorTest" time="0"/>
+  <testcase name="detectWeakTrustManager" classname="com.h3xstream.findsecbugs.crypto.WeakTrustManagerDetectorTest" time="0"/>
+  <testcase name="detectWeakTrustManagerSslDisabler" classname="com.h3xstream.findsecbugs.crypto.WeakTrustManagerDetectorTest" time="0.001"/>
+  <testcase name="jspInclude1_unsafe" classname="com.h3xstream.findsecbugs.jsp.JspIncludeDetectorTest" time="0"/>
+  <testcase name="jspInclude2_safe" classname="com.h3xstream.findsecbugs.jsp.JspIncludeDetectorTest" time="0"/>
+  <testcase name="jspInclude3_unsafe" classname="com.h3xstream.findsecbugs.jsp.JspIncludeDetectorTest" time="0"/>
+  <testcase name="detectSpringCsrfProtectionDisabled" classname="com.h3xstream.findsecbugs.csrf.SpringCsrfProtectionDisabledDetectorTest" time="0.001"/>
+  <testcase name="jspSpringEval1_unsafe" classname="com.h3xstream.findsecbugs.jsp.JspSpringEvalDetectorTest" time="0"/>
+  <testcase name="jspSpringEval2_unsafe" classname="com.h3xstream.findsecbugs.jsp.JspSpringEvalDetectorTest" time="0"/>
+  <testcase name="jspSpringEval3_unsafe" classname="com.h3xstream.findsecbugs.jsp.JspSpringEvalDetectorTest" time="0"/>
+  <testcase name="jspSpringEval4_safe" classname="com.h3xstream.findsecbugs.jsp.JspSpringEvalDetectorTest" time="0"/>
+  <testcase name="avoidFalsePositiveOnSafeSpringCsrfRequestMapping" classname="com.h3xstream.findsecbugs.csrf.SpringCsrfUnrestrictedRequestMappingDetectorTest" time="0"/>
+  <testcase name="detectSpringCsrfUnrestrictedRequestMapping" classname="com.h3xstream.findsecbugs.csrf.SpringCsrfUnrestrictedRequestMappingDetectorTest" time="0"/>
+  <testcase name="detectJaxRsEndpoint" classname="com.h3xstream.findsecbugs.endpoint.JaxRsEndpointDetectorTest" time="0"/>
+  <testcase name="jspEscape1_safe" classname="com.h3xstream.findsecbugs.jsp.JstlOutDetectorTest" time="0"/>
+  <testcase name="jspEscape2_unsafe" classname="com.h3xstream.findsecbugs.jsp.JstlOutDetectorTest" time="0"/>
+  <testcase name="jspEscape3_safe" classname="com.h3xstream.findsecbugs.jsp.JstlOutDetectorTest" time="0"/>
+  <testcase name="jspEscape4_unknown" classname="com.h3xstream.findsecbugs.jsp.JstlOutDetectorTest" time="0"/>
+  <testcase name="detectJaxWsEndpoint" classname="com.h3xstream.findsecbugs.endpoint.JaxWsEndpointDetectorTest" time="0"/>
+  <testcase name="jspEscape_weblogic" classname="com.h3xstream.findsecbugs.jsp.JstlOutDetectorWeblogicTest" time="0"/>
+  <testcase name="detectServletVariousInputs" classname="com.h3xstream.findsecbugs.endpoint.ServletEndpointDetectorTest" time="0"/>
+  <testcase name="detectSpringController" classname="com.h3xstream.findsecbugs.endpoint.SpringMvcEndpointDetectorTest" time="0"/>
+  <testcase name="detectStruts1Endpoint" classname="com.h3xstream.findsecbugs.endpoint.Struts1EndpointDetectorTest" time="0"/>
+  <testcase name="detectStruts2Endpoint" classname="com.h3xstream.findsecbugs.endpoint.Struts2EndpointDetectorTest" time="0"/>
+  <testcase name="detectTapestryPagePojo" classname="com.h3xstream.findsecbugs.endpoint.TapestryEndpointDetectorTest" time="0.001"/>
+  <testcase name="detectTapestryPageWithFrameworkReference" classname="com.h3xstream.findsecbugs.endpoint.TapestryEndpointDetectorTest" time="0"/>
+  <testcase name="noFalsePositiveOnOtherClass" classname="com.h3xstream.findsecbugs.endpoint.TapestryEndpointDetectorTest" time="0"/>
+  <testcase name="detectWicketEndpoint" classname="com.h3xstream.findsecbugs.endpoint.WicketEndpointDetectorTest" time="0"/>
+  <testcase name="detectCatalog" classname="com.h3xstream.findsecbugs.ExternalConfigurationControlDetectorTest" time="0"/>
+  <testcase name="detectTaintedFilename" classname="com.h3xstream.findsecbugs.file.FileUploadFilenameDetectorTest" time="0"/>
+  <testcase name="detectPathTraversal" classname="com.h3xstream.findsecbugs.file.PathTraversalDetectorTest" time="0"/>
+</testsuite>

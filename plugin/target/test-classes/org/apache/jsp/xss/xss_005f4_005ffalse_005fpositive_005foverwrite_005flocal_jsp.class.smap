@@ -1,0 +1,14 @@
+SMAP
+xss_005f4_005ffalse_005fpositive_005foverwrite_005flocal_jsp.java
+JSP
+*S JSP
+*F
++ 0 xss_4_false_positive_overwrite_local.jsp
+xss/xss_4_false_positive_overwrite_local.jsp
+*L
+2,3:110
+4,2:113,0
+7,2:116
+8,2:118,0
+10:120
+*E

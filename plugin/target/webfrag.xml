@@ -1,0 +1,272 @@
+
+<!--
+Automatically created by Apache Tomcat JspC.
+Place this fragment in the web.xml before all icon, display-name,
+description, distributable, and context-param elements.
+-->
+
+    <servlet>
+        <servlet-name>org.apache.jsp.includes.$_007bparam_secret_005fparam_007d_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.includes.$_007bparam_secret_005fparam_007d_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.includes.jsp_005finclude_005f1_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.includes.jsp_005finclude_005f1_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.includes.jsp_005finclude_005f2_005fsafe_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.includes.jsp_005finclude_005f2_005fsafe_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.includes.jsp_005finclude_005f3_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.includes.jsp_005finclude_005f3_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.jstl.jstl_005fescape_005f1_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.jstl.jstl_005fescape_005f1_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.jstl.jstl_005fescape_005f2_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.jstl.jstl_005fescape_005f2_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.jstl.jstl_005fescape_005f3_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.jstl.jstl_005fescape_005f3_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.jstl.jstl_005fescape_005f4_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.jstl.jstl_005fescape_005f4_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.spring.spring_005feval_005f1_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.spring.spring_005feval_005f1_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.spring.spring_005feval_005f2_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.spring.spring_005feval_005f2_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.spring.spring_005feval_005f3_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.spring.spring_005feval_005f3_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.spring.spring_005feval_005f4_005fsafe_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.spring.spring_005feval_005f4_005fsafe_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.xml.xml1_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.xml.xml1_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.xml.xml2_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.xml.xml2_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.xsl.xsl1_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.xsl.xsl1_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.xsl.xsl2_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.xsl.xsl2_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.xsl.xsl3_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.xsl.xsl3_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.xsl.xsl4_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.xsl.xsl4_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.xss.xss_005f1_005fdirect_005fuse_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.xss.xss_005f1_005fdirect_005fuse_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.xss.xss_005f2_005ftransfer_005flocal_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.xss.xss_005f2_005ftransfer_005flocal_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.xss.xss_005f3_005ffalse_005fpositive_005fstatic_005ffunction_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.xss.xss_005f3_005ffalse_005fpositive_005fstatic_005ffunction_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.xss.xss_005f4_005ffalse_005fpositive_005foverwrite_005flocal_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.xss.xss_005f4_005ffalse_005fpositive_005foverwrite_005flocal_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.xss.xss_005f5_005fmultiple_005ftransfer_005flocal_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.xss.xss_005f5_005fmultiple_005ftransfer_005flocal_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.xss.xss_005f6_005fget_005fparameter_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.xss.xss_005f6_005fget_005fparameter_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.xss.xss_005f7_005ffalse_005fpositive_005fdirect_005fcast_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.xss.xss_005f7_005ffalse_005fpositive_005fdirect_005fcast_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.xss_005ffp.xss_005fresource_005fbundle_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.xss_005ffp.xss_005fresource_005fbundle_jsp</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.includes.$_007bparam_secret_005fparam_007d_jsp</servlet-name>
+        <url-pattern>/includes/${param.secret_param}.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.includes.jsp_005finclude_005f1_jsp</servlet-name>
+        <url-pattern>/includes/jsp_include_1.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.includes.jsp_005finclude_005f2_005fsafe_jsp</servlet-name>
+        <url-pattern>/includes/jsp_include_2_safe.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.includes.jsp_005finclude_005f3_jsp</servlet-name>
+        <url-pattern>/includes/jsp_include_3.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.jstl.jstl_005fescape_005f1_jsp</servlet-name>
+        <url-pattern>/jstl/jstl_escape_1.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.jstl.jstl_005fescape_005f2_jsp</servlet-name>
+        <url-pattern>/jstl/jstl_escape_2.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.jstl.jstl_005fescape_005f3_jsp</servlet-name>
+        <url-pattern>/jstl/jstl_escape_3.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.jstl.jstl_005fescape_005f4_jsp</servlet-name>
+        <url-pattern>/jstl/jstl_escape_4.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.spring.spring_005feval_005f1_jsp</servlet-name>
+        <url-pattern>/spring/spring_eval_1.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.spring.spring_005feval_005f2_jsp</servlet-name>
+        <url-pattern>/spring/spring_eval_2.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.spring.spring_005feval_005f3_jsp</servlet-name>
+        <url-pattern>/spring/spring_eval_3.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.spring.spring_005feval_005f4_005fsafe_jsp</servlet-name>
+        <url-pattern>/spring/spring_eval_4_safe.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.xml.xml1_jsp</servlet-name>
+        <url-pattern>/xml/xml1.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.xml.xml2_jsp</servlet-name>
+        <url-pattern>/xml/xml2.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.xsl.xsl1_jsp</servlet-name>
+        <url-pattern>/xsl/xsl1.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.xsl.xsl2_jsp</servlet-name>
+        <url-pattern>/xsl/xsl2.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.xsl.xsl3_jsp</servlet-name>
+        <url-pattern>/xsl/xsl3.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.xsl.xsl4_jsp</servlet-name>
+        <url-pattern>/xsl/xsl4.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.xss.xss_005f1_005fdirect_005fuse_jsp</servlet-name>
+        <url-pattern>/xss/xss_1_direct_use.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.xss.xss_005f2_005ftransfer_005flocal_jsp</servlet-name>
+        <url-pattern>/xss/xss_2_transfer_local.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.xss.xss_005f3_005ffalse_005fpositive_005fstatic_005ffunction_jsp</servlet-name>
+        <url-pattern>/xss/xss_3_false_positive_static_function.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.xss.xss_005f4_005ffalse_005fpositive_005foverwrite_005flocal_jsp</servlet-name>
+        <url-pattern>/xss/xss_4_false_positive_overwrite_local.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.xss.xss_005f5_005fmultiple_005ftransfer_005flocal_jsp</servlet-name>
+        <url-pattern>/xss/xss_5_multiple_transfer_local.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.xss.xss_005f6_005fget_005fparameter_jsp</servlet-name>
+        <url-pattern>/xss/xss_6_get_parameter.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.xss.xss_005f7_005ffalse_005fpositive_005fdirect_005fcast_jsp</servlet-name>
+        <url-pattern>/xss/xss_7_false_positive_direct_cast.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.xss_005ffp.xss_005fresource_005fbundle_jsp</servlet-name>
+        <url-pattern>/xss_fp/xss_resource_bundle.jsp</url-pattern>
+    </servlet-mapping>
+
+<!--
+All session-config, mime-mapping, welcome-file-list, error-page, taglib,
+resource-ref, security-constraint, login-config, security-role,
+env-entry, and ejb-ref elements should follow this fragment.
+-->

@@ -1,0 +1,13 @@
+SMAP
+xss_005f6_005fget_005fparameter_jsp.java
+JSP
+*S JSP
+*F
++ 0 xss_6_get_parameter.jsp
+xss/xss_6_get_parameter.jsp
+*L
+1,2:111,0
+4,2:114
+5,3:116,0
+7:117
+*E

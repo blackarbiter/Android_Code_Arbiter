@@ -1,0 +1,17 @@
+SMAP
+xss_005f1_005fdirect_005fuse_jsp.java
+JSP
+*S JSP
+*F
++ 0 xss_1_direct_use.jsp
+xss/xss_1_direct_use.jsp
+*L
+1,2:111,0
+4,2:114
+5,3:116,0
+10,4:121
+13,2:125,0
+15:127
+16:128,0
+17:130
+*E

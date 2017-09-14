@@ -1,0 +1,276 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.h3xstream.findsecbugs</groupId>
+    <artifactId>findsecbugs-root-pom</artifactId>
+
+    <packaging>pom</packaging>
+    <version>1.7.0-SNAPSHOT</version>
+
+    <name>Find Security Bugs root</name>
+
+	<description>Root project file that aggregate the different modules of Find Security Bugs.</description>
+
+    <properties>
+        <!-- Encoding configuration -->
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    </properties>
+
+    <build>
+        <plugins>
+            <!-- Force the use the compatibility to Java 6 -->
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>2.3.2</version>
+                <!-- Be careful before updating this plugin..
+                    The current deployment process will fail.
+                    (https://github.com/find-sec-bugs/find-sec-bugs/wiki/Compiling#release-process) -->
+                <configuration>
+                    <source>1.7</source>
+                    <target>1.7</target>
+                </configuration>
+            </plugin>
+
+            <!-- Update automatically the header of the source code to the LGPL header. -->
+            <plugin>
+                <groupId>com.mycila</groupId>
+                <artifactId>license-maven-plugin</artifactId>
+                <version>2.11</version>
+                <configuration>
+                    <header>file:///${session.executionRootDirectory}/LGPL-3.0-header.txt</header>
+                    <aggregate>true</aggregate>
+                    <strictCheck>true</strictCheck>
+                    <includes>
+                        <include>**/**.java</include>
+                    </includes>
+                    <excludes>
+                        <exclude>**/SMAPSourceDebugExtension.java</exclude>
+                        <exclude>**/testcode/**/**.java</exclude>
+                        <exclude>**/package-info.java</exclude>
+                        <!-- Package that contains stub api -->
+                        <exclude>**/java/android/**/**.java</exclude>
+                        <exclude>**/com/hazelcast/**/**.java</exclude>
+                        <exclude>**/javax/**/**.java</exclude>
+                        <exclude>**/org/acegisecurity/**/**.java</exclude>
+                        <exclude>**/org/apache/**/**.java</exclude>
+                        <exclude>**/org/bouncycastle/**/**.java</exclude>
+                        <exclude>**/org/hibernate/**/**.java</exclude>
+                        <exclude>**/org/owasp/**/**.java</exclude>
+                        <exclude>**/org/jboss/**/**.java</exclude>
+                        <exclude>**/org/springframework/**/**.java</exclude>
+                        <exclude>**/com/unboundid/ldap/**/**.java</exclude>
+                        <exclude>**/java/scala/util/**/**.java</exclude>
+                        <exclude>**/groovy/lang/**.java</exclude>
+                        <exclude>**/scala/**.java</exclude>
+                        <exclude>**/scala/**/**.java</exclude>
+                        <exclude>**/**/ReadMe.java</exclude>
+                        <exclude>**/freemarker/template/**/**.java</exclude>
+                        <exclude>**/PluginDepsClassPathFinder.java</exclude>
+                        <exclude>**/java/flexjson/**.java</exclude>
+                        <exclude>**/java/com/typesafe/**/**.java</exclude>
+                        <exclude>**/java/com/fasterxml/jackson/**/**.java</exclude>
+                        <exclude>**/java/ognl/**/**.java</exclude>
+                        <exclude>**/com/opensymphony/**/**.java</exclude>
+                    </excludes>
+                    <properties>
+                        <project>Find Security Bugs</project>
+                        <owner>Philippe Arteau</owner>
+                    </properties>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>regen_lgpl</id>
+                        <goals>
+                            <goal>check</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-javadoc-plugin</artifactId>
+                <version>2.10.4</version>
+                <configuration>
+                    <additionalparam>-Xdoclint:none</additionalparam>
+                </configuration>
+            </plugin>
+
+
+            <plugin>
+                <groupId>org.eluder.coveralls</groupId>
+                <artifactId>coveralls-maven-plugin</artifactId>
+                <version>4.3.0</version>
+            </plugin>
+
+        </plugins>
+
+    </build>
+
+    <profiles>
+        <profile>
+            <id>travisci</id> <!-- Profile that is specific for the cloud service Travis-CI (travis-ci.com) -->
+            <activation>
+                <activeByDefault>false</activeByDefault>
+            </activation>
+
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-surefire-plugin</artifactId>
+                        <version>2.19.1</version>
+                        <configuration>
+                            <argLine>-Xmx3000m -Dbcel.dontCache=true</argLine>
+                        </configuration>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+    </profiles>
+
+
+
+
+
+    <modules>
+        <module>plugin</module>
+        <module>findbugs-test-util</module>
+        <module>plugin-deps</module>
+    </modules>
+
+
+    <!-- All the dependencies are declare here. Modules will refer to those without specifying the version. -->
+    <dependencyManagement>
+        <dependencies>
+
+            <dependency>
+                <groupId>com.github.spotbugs</groupId>
+                <artifactId>spotbugs</artifactId>
+                <version>3.1.0-RC3</version>
+            </dependency>
+
+            <!-- Artefact definition of the module -->
+
+            <dependency>
+                <groupId>com.h3xstream.findsecbugs</groupId>
+                <artifactId>findbugs-test-util</artifactId>
+                <type>test-jar</type>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.h3xstream.findsecbugs</groupId>
+                <artifactId>findsecbugs-plugin</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.h3xstream.findsecbugs</groupId>
+                <artifactId>findsecbugs-plugin-deps</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <!-- Test dependencies -->
+
+            <dependency>
+                <groupId>org.mockito</groupId>
+                <artifactId>mockito-all</artifactId>
+                <version>1.10.19</version>
+                <scope>test</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>org.hamcrest</groupId>
+                <artifactId>hamcrest-core</artifactId>
+                <version>1.2.1</version>
+                <scope>test</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>org.testng</groupId>
+                <artifactId>testng</artifactId>
+                <version>6.9.10</version>
+                <scope>test</scope>
+            </dependency>
+
+
+
+            <dependency>
+                <groupId>commons-io</groupId>
+                <artifactId>commons-io</artifactId>
+                <version>2.5</version>
+                <scope>test</scope>
+            </dependency>
+
+
+            <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>slf4j-api</artifactId>
+                <version>1.6.4</version>
+                <scope>test</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>ch.qos.logback</groupId>
+                <artifactId>logback-classic</artifactId>
+                <version>1.1.7</version>
+                <scope>test</scope>
+            </dependency>
+
+
+
+
+        </dependencies>
+
+    </dependencyManagement>
+
+
+    <!--
+    The following meta data are present to comply with Maven Central.
+    Ref: https://docs.sonatype.org/display/Repository/Sonatype+OSS+Maven+Repository+Usage+Guide#SonatypeOSSMavenRepositoryUsageGuide-6.CentralSyncRequirement
+    -->
+
+    <url>https://find-sec-bugs.github.io/</url>
+
+    <licenses>
+        <license>
+            <name>GNU Lesser General Public License</name>
+            <url>http://www.gnu.org/copyleft/lesser.html</url>
+            <distribution>repo</distribution>
+            <comments></comments>
+        </license>
+    </licenses>
+
+    <scm>
+        <connection>scm:git:https://github.com/find-sec-bugs/find-sec-bugs.git</connection>
+        <developerConnection>scm:git:git@github.com:find-sec-bugs/find-sec-bugs.git</developerConnection>
+        <url>git@github.com:find-sec-bugs/find-sec-bugs.git</url>
+    </scm>
+
+    <developers>
+        <developer>
+            <id>h3xstream</id>
+            <name>Philippe Arteau</name>
+            <url>http://www.h3xstream.com/</url>
+        </developer>
+    </developers>
+
+    <distributionManagement>
+        <repository>
+            <id>sonatype-nexus-staging</id>
+            <name>Sonatype staging repository</name>
+            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+        </repository>
+
+        <snapshotRepository>
+            <id>sonatype-nexus-snapshots</id>
+            <name>Sonatype snapshot repository</name>
+            <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
+
+</project>

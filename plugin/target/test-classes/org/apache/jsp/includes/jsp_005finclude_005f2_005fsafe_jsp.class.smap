@@ -1,0 +1,14 @@
+SMAP
+jsp_005finclude_005f2_005fsafe_jsp.java
+JSP
+*S JSP
+*F
++ 0 jsp_include_2_safe.jsp
+includes/jsp_include_2_safe.jsp
++ 1 ${param.secret_param}.jsp
+includes/${param.secret_param}.jsp
+*L
+1,4:114,0
+1#1:115,0
+4#0:116,0
+*E

@@ -1,0 +1,15 @@
+SMAP
+xss_005f2_005ftransfer_005flocal_jsp.java
+JSP
+*S JSP
+*F
++ 0 xss_2_transfer_local.jsp
+xss/xss_2_transfer_local.jsp
+*L
+1:111,0
+3,4:113
+6,3:117,0
+10,2:121
+11,2:123,0
+14,2:126
+*E

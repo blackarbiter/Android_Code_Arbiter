@@ -1,0 +1,13 @@
+SMAP
+xss_005f7_005ffalse_005fpositive_005fdirect_005fcast_jsp.java
+JSP
+*S JSP
+*F
++ 0 xss_7_false_positive_direct_cast.jsp
+xss/xss_7_false_positive_direct_cast.jsp
+*L
+2,2:110
+3,2:112,0
+5:114
+6:116
+*E

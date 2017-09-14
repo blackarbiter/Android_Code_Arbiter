@@ -1,0 +1,1054 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>195/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Sep 14 17:15:25 CST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>1 seconds (1636 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.template.FreemarkerDetectorTest.allSignatures()'><b>allSignatures</b><br>Test class: com.h3xstream.findsecbugs.template.FreemarkerDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.template.FreemarkerDetectorTest@25359ed8</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.template.VelocityDetectorTest.allSignatures()'><b>allSignatures</b><br>Test class: com.h3xstream.findsecbugs.template.VelocityDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.template.VelocityDetectorTest@21a947fe</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.ReDosDetectorTest.analyseSafePattern()'><b>analyseSafePattern</b><br>Test class: com.h3xstream.findsecbugs.ReDosDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.ReDosDetectorTest@5e25a92e</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.ReDosDetectorTest.analyseSuspectPattern()'><b>analyseSuspectPattern</b><br>Test class: com.h3xstream.findsecbugs.ReDosDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.ReDosDetectorTest@5e25a92e</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.template.VelocityDetectorTest.avoidBasicFalsePositive()'><b>avoidBasicFalsePositive</b><br>Test class: com.h3xstream.findsecbugs.template.VelocityDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.template.VelocityDetectorTest@21a947fe</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.xml.XmlStreamReaderDetectorTest.avoidFP()'><b>avoidFP</b><br>Test class: com.h3xstream.findsecbugs.xml.XmlStreamReaderDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.xml.XmlStreamReaderDetectorTest@12405818</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.xml.XmlReaderDetectorTest.avoidFalsePositive()'><b>avoidFalsePositive</b><br>Test class: com.h3xstream.findsecbugs.xml.XmlReaderDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.xml.XmlReaderDetectorTest@6c3f5566</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.injection.command.CommandInjectionDetectorAdvancedTest.avoidFalsePositive()'><b>avoidFalsePositive</b><br>Test class: com.h3xstream.findsecbugs.injection.command.CommandInjectionDetectorAdvancedTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.injection.command.CommandInjectionDetectorAdvancedTest@166fa74d</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.injection.stringbuilder.InjectionWithStringBuilderTest.avoidFalsePositive()'><b>avoidFalsePositive</b><br>Test class: com.h3xstream.findsecbugs.injection.stringbuilder.InjectionWithStringBuilderTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.injection.stringbuilder.InjectionWithStringBuilderTest@17776a8</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.crypto.StaticIvDetectorTest.avoidFalsePositiveDecrypt()'><b>avoidFalsePositiveDecrypt</b><br>Test class: com.h3xstream.findsecbugs.crypto.StaticIvDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.crypto.StaticIvDetectorTest@140e5a13</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.crypto.StaticIvDetectorTest.avoidFalsePositiveGenerateWithKeyGenerator()'><b>avoidFalsePositiveGenerateWithKeyGenerator</b><br>Test class: com.h3xstream.findsecbugs.crypto.StaticIvDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.crypto.StaticIvDetectorTest@140e5a13</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.xml.SaxParserSafePropertyTest.avoidFalsePositiveOnSafeCases()'><b>avoidFalsePositiveOnSafeCases</b><br>Test class: com.h3xstream.findsecbugs.xml.SaxParserSafePropertyTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.xml.SaxParserSafePropertyTest@6a396c1e</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.xml.DocumentBuilderSafePropertyTest.avoidFalsePositiveOnSafeConfiguration()'><b>avoidFalsePositiveOnSafeConfiguration</b><br>Test class: com.h3xstream.findsecbugs.xml.DocumentBuilderSafePropertyTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.xml.DocumentBuilderSafePropertyTest@1445d7f</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.csrf.SpringCsrfUnrestrictedRequestMappingDetectorTest.avoidFalsePositiveOnSafeSpringCsrfRequestMapping()'><b>avoidFalsePositiveOnSafeSpringCsrfRequestMapping</b><br>Test class: com.h3xstream.findsecbugs.csrf.SpringCsrfUnrestrictedRequestMappingDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.csrf.SpringCsrfUnrestrictedRequestMappingDetectorTest@76b10754</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.crypto.StaticIvDetectorTest.avoidFalsePositiveSecRandom()'><b>avoidFalsePositiveSecRandom</b><br>Test class: com.h3xstream.findsecbugs.crypto.StaticIvDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.crypto.StaticIvDetectorTest@140e5a13</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.cookie.CookieFlagsDetectorTest.avoidHttpOnlyBasicFalsePositive()'><b>avoidHttpOnlyBasicFalsePositive</b><br>Test class: com.h3xstream.findsecbugs.cookie.CookieFlagsDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.cookie.CookieFlagsDetectorTest@5f71c76a</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.serial.UnsafeJacksonDeserializationDetectorTest.avoidJacksonFalsePositive()'><b>avoidJacksonFalsePositive</b><br>Test class: com.h3xstream.findsecbugs.serial.UnsafeJacksonDeserializationDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.serial.UnsafeJacksonDeserializationDetectorTest@4ba2ca36</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.serial.ObjectDeserializationDetectorTest.avoidReadObjectFalsePositive()'><b>avoidReadObjectFalsePositive</b><br>Test class: com.h3xstream.findsecbugs.serial.ObjectDeserializationDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.serial.ObjectDeserializationDetectorTest@120d6fe6</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.xss.XssResourceBundleTest.avoidResourceBundle()'><b>avoidResourceBundle</b><br>Test class: com.h3xstream.findsecbugs.xss.XssResourceBundleTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.xss.XssResourceBundleTest@442675e1</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.cookie.CookieFlagsDetectorTest.avoidSecureFlagBasicFalsePositive()'><b>avoidSecureFlagBasicFalsePositive</b><br>Test class: com.h3xstream.findsecbugs.cookie.CookieFlagsDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.cookie.CookieFlagsDetectorTest@5f71c76a</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.template.FreemarkerDetectorTest.basicUsagesTesting()'><b>basicUsagesTesting</b><br>Test class: com.h3xstream.findsecbugs.template.FreemarkerDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.template.FreemarkerDetectorTest@25359ed8</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.template.VelocityDetectorTest.basicUsagesTesting()'><b>basicUsagesTesting</b><br>Test class: com.h3xstream.findsecbugs.template.VelocityDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.template.VelocityDetectorTest@21a947fe</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.injection.sql.AndroidInjectionSourceTest.detectAndroidContentProviderInjection()'><b>detectAndroidContentProviderInjection</b><br>Test class: com.h3xstream.findsecbugs.injection.sql.AndroidInjectionSourceTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.injection.sql.AndroidInjectionSourceTest@517cd4b</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.injection.sql.AndroidInjectionSourceTest.detectAndroidCustomContentProvider()'><b>detectAndroidCustomContentProvider</b><br>Test class: com.h3xstream.findsecbugs.injection.sql.AndroidInjectionSourceTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.injection.sql.AndroidInjectionSourceTest@517cd4b</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.injection.sql.AndroidInjectionSourceTest.detectAndroidInjection()'><b>detectAndroidInjection</b><br>Test class: com.h3xstream.findsecbugs.injection.sql.AndroidInjectionSourceTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.injection.sql.AndroidInjectionSourceTest@517cd4b</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.ldap.AnonymousLdapDetectorTest.detectAnonymousLdapBind()'><b>detectAnonymousLdapBind</b><br>Test class: com.h3xstream.findsecbugs.ldap.AnonymousLdapDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.ldap.AnonymousLdapDetectorTest@4e41089d</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.ldap.LdapEntryPoisoningDetectorTest.detectAnonymousLdapBind()'><b>detectAnonymousLdapBind</b><br>Test class: com.h3xstream.findsecbugs.ldap.LdapEntryPoisoningDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.ldap.LdapEntryPoisoningDetectorTest@32a068d1</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.ldap.SpringLdapInjectionTest.detectAnonymousLdapBind()'><b>detectAnonymousLdapBind</b><br>Test class: com.h3xstream.findsecbugs.ldap.SpringLdapInjectionTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.ldap.SpringLdapInjectionTest@33cb5951</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.injection.aws.AwsQueryInjectionDetectorTest.detectAwsQueryInjection()'><b>detectAwsQueryInjection</b><br>Test class: com.h3xstream.findsecbugs.injection.aws.AwsQueryInjectionDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.injection.aws.AwsQueryInjectionDetectorTest@2f490758</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.crypto.BadHexadecimalConversionDetectorTest.detectBadHexa()'><b>detectBadHexa</b><br>Test class: com.h3xstream.findsecbugs.crypto.BadHexadecimalConversionDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.crypto.BadHexadecimalConversionDetectorTest@4f51b3e0</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.crypto.InsecureSmtpSslDetectorTest.detectBadKeySize()'><b>detectBadKeySize</b><br>Test class: com.h3xstream.findsecbugs.crypto.InsecureSmtpSslDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.crypto.InsecureSmtpSslDetectorTest@1cab0bfb</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.crypto.InsufficientKeySizeBlowfishDetectorTest.detectBadKeySize()'><b>detectBadKeySize</b><br>Test class: com.h3xstream.findsecbugs.crypto.InsufficientKeySizeBlowfishDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.crypto.InsufficientKeySizeBlowfishDetectorTest@5e955596</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.crypto.InsufficientKeySizeRsaDetectorTest.detectBadKeySize()'><b>detectBadKeySize</b><br>Test class: com.h3xstream.findsecbugs.crypto.InsufficientKeySizeRsaDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.crypto.InsufficientKeySizeRsaDetectorTest@50de0926</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.injection.sql.JdbcInjectionSourceTest.detectBasicJdbcInjection()'><b>detectBasicJdbcInjection</b><br>Test class: com.h3xstream.findsecbugs.injection.sql.JdbcInjectionSourceTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.injection.sql.JdbcInjectionSourceTest@32cf48b7</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.injection.sql.SpringJdbcOperationsAndTemplateTest.detectBasicSpringJdbcInjection()'><b>detectBasicSpringJdbcInjection</b><br>Test class: com.h3xstream.findsecbugs.injection.sql.SpringJdbcOperationsAndTemplateTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.injection.sql.SpringJdbcOperationsAndTemplateTest@45afc369</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.injection.sql.SpringJdbcOperationsAndTemplateTest.detectBatchUpdate()'><b>detectBatchUpdate</b><br>Test class: com.h3xstream.findsecbugs.injection.sql.SpringJdbcOperationsAndTemplateTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.injection.sql.SpringJdbcOperationsAndTemplateTest@45afc369</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.injection.beans.BeanInjectionDetectorTest.detectBeanInjection()'><b>detectBeanInjection</b><br>Test class: com.h3xstream.findsecbugs.injection.beans.BeanInjectionDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.injection.beans.BeanInjectionDetectorTest@101df177</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.ExternalConfigurationControlDetectorTest.detectCatalog()'><b>detectCatalog</b><br>Test class: com.h3xstream.findsecbugs.ExternalConfigurationControlDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.ExternalConfigurationControlDetectorTest@74294adb</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.injection.command.CommandInjectionDetectorTest.detectCommandInjection()'><b>detectCommandInjection</b><br>Test class: com.h3xstream.findsecbugs.injection.command.CommandInjectionDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.injection.command.CommandInjectionDetectorTest@40f08448</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.scala.ScalaCommandInjectionDetectorTest.detectCommandInjection()'><b>detectCommandInjection</b><br>Test class: com.h3xstream.findsecbugs.scala.ScalaCommandInjectionDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.scala.ScalaCommandInjectionDetectorTest@b59d31</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.scala.ScalaPathTraversalDetectorTest.detectCommandInjection()'><b>detectCommandInjection</b><br>Test class: com.h3xstream.findsecbugs.scala.ScalaPathTraversalDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.scala.ScalaPathTraversalDetectorTest@62fdb4a6</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.serial.DeserializationGadgetDetectorTest.detectCommonsCollectionGadget()'><b>detectCommonsCollectionGadget</b><br>Test class: com.h3xstream.findsecbugs.serial.DeserializationGadgetDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.serial.DeserializationGadgetDetectorTest@1176dcec</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.crypto.StaticIvDetectorTest.detectConstantIv()'><b>detectConstantIv</b><br>Test class: com.h3xstream.findsecbugs.crypto.StaticIvDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.crypto.StaticIvDetectorTest@140e5a13</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.cookie.CookieReadDetectorTest.detectCookieUsage()'><b>detectCookieUsage</b><br>Test class: com.h3xstream.findsecbugs.cookie.CookieReadDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.cookie.CookieReadDetectorTest@1d7acb34</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.crypto.CustomMessageDigestDetectorTest.detectCustomDigest()'><b>detectCustomDigest</b><br>Test class: com.h3xstream.findsecbugs.crypto.CustomMessageDigestDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.crypto.CustomMessageDigestDetectorTest@5e57643e</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.android.LocalDenialOfServiceDetectorTest.detectDenialOfService()'><b>detectDenialOfService</b><br>Test class: com.h3xstream.findsecbugs.android.LocalDenialOfServiceDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.android.LocalDenialOfServiceDetectorTest@6366ebe0</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.crypto.DesUsageDetectorTest.detectDesCipher()'><b>detectDesCipher</b><br>Test class: com.h3xstream.findsecbugs.crypto.DesUsageDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.crypto.DesUsageDetectorTest@133e16fd</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.crypto.DesUsageDetectorTest.detectDesKeyGeneration()'><b>detectDesKeyGeneration</b><br>Test class: com.h3xstream.findsecbugs.crypto.DesUsageDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.crypto.DesUsageDetectorTest@133e16fd</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.crypto.EcbModeDetectorTest.detectEcbMode()'><b>detectEcbMode</b><br>Test class: com.h3xstream.findsecbugs.crypto.EcbModeDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.crypto.EcbModeDetectorTest@51b279c9</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.crypto.EsapiEncryptorDetectorTest.detectEcryptor()'><b>detectEcryptor</b><br>Test class: com.h3xstream.findsecbugs.crypto.EsapiEncryptorDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.crypto.EsapiEncryptorDetectorTest@1ad282e0</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.injection.sql.SpringJdbcOperationsAndTemplateTest.detectExecute()'><b>detectExecute</b><br>Test class: com.h3xstream.findsecbugs.injection.sql.SpringJdbcOperationsAndTemplateTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.injection.sql.SpringJdbcOperationsAndTemplateTest@45afc369</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.injection.sql.JdbcInjectionSourceTest.detectExecuteExecuteLargeUpdate()'><b>detectExecuteExecuteLargeUpdate</b><br>Test class: com.h3xstream.findsecbugs.injection.sql.JdbcInjectionSourceTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.injection.sql.JdbcInjectionSourceTest@32cf48b7</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.injection.sql.JdbcInjectionSourceTest.detectExecutePrepareCall()'><b>detectExecutePrepareCall</b><br>Test class: com.h3xstream.findsecbugs.injection.sql.JdbcInjectionSourceTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.injection.sql.JdbcInjectionSourceTest@32cf48b7</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.injection.sql.JdbcInjectionSourceTest.detectExecuteQuery()'><b>detectExecuteQuery</b><br>Test class: com.h3xstream.findsecbugs.injection.sql.JdbcInjectionSourceTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.injection.sql.JdbcInjectionSourceTest@32cf48b7</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.injection.sql.JdbcInjectionSourceTest.detectExecuteUpdate()'><b>detectExecuteUpdate</b><br>Test class: com.h3xstream.findsecbugs.injection.sql.JdbcInjectionSourceTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.injection.sql.JdbcInjectionSourceTest@32cf48b7</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.android.ExternalFileAccessDetectorTest.detectExternalFileAccess()'><b>detectExternalFileAccess</b><br>Test class: com.h3xstream.findsecbugs.android.ExternalFileAccessDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.android.ExternalFileAccessDetectorTest@57f23557</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.injection.fileDisclosure.FileDisclosureDetectorTest.detectFileDisclosure()'><b>detectFileDisclosure</b><br>Test class: com.h3xstream.findsecbugs.injection.fileDisclosure.FileDisclosureDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.injection.fileDisclosure.FileDisclosureDetectorTest@588df31b</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.injection.formatter.FormatStringManipulationDetectorTest.detectFormatStringManipulation()'><b>detectFormatStringManipulation</b><br>Test class: com.h3xstream.findsecbugs.injection.formatter.FormatStringManipulationDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.injection.formatter.FormatStringManipulationDetectorTest@33b37288</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.android.GeolocationDetectorTest.detectGeolocationFromWebView()'><b>detectGeolocationFromWebView</b><br>Test class: com.h3xstream.findsecbugs.android.GeolocationDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.android.GeolocationDetectorTest@3d0f8e03</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.serial.DeserializationGadgetDetectorTest.detectGroovyGadget()'><b>detectGroovyGadget</b><br>Test class: com.h3xstream.findsecbugs.serial.DeserializationGadgetDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.serial.DeserializationGadgetDetectorTest@1176dcec</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.password.GoogleApiKeyDetectorTest.detectHardCodeApiKey()'><b>detectHardCodeApiKey</b><br>Test class: com.h3xstream.findsecbugs.password.GoogleApiKeyDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.password.GoogleApiKeyDetectorTest@701fc37a</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.password.GoogleApiKeyDetectorTest.detectHardCodeApiKeyWithClassRename()'><b>detectHardCodeApiKeyWithClassRename</b><br>Test class: com.h3xstream.findsecbugs.password.GoogleApiKeyDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.password.GoogleApiKeyDetectorTest@701fc37a</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.password.HardcodePasswordInMapDetectorTest.detectHardCodeCredentials()'><b>detectHardCodeCredentials</b><br>Test class: com.h3xstream.findsecbugs.password.HardcodePasswordInMapDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.password.HardcodePasswordInMapDetectorTest@4148db48</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.password.HardcodePasswordInMapDetectorTest.detectHardCodeCredentialsVariousMap()'><b>detectHardCodeCredentialsVariousMap</b><br>Test class: com.h3xstream.findsecbugs.password.HardcodePasswordInMapDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.password.HardcodePasswordInMapDetectorTest@4148db48</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.password.ConstantPasswordDetectorTest.detectHardCodePasswordsAndKeys()'><b>detectHardCodePasswordsAndKeys</b><br>Test class: com.h3xstream.findsecbugs.password.ConstantPasswordDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.password.ConstantPasswordDetectorTest@365c30cc</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.password.IntuitiveHardcodePasswordDetectorTest.detectHardCodePasswordsAndKeys()'><b>detectHardCodePasswordsAndKeys</b><br>Test class: com.h3xstream.findsecbugs.password.IntuitiveHardcodePasswordDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.password.IntuitiveHardcodePasswordDetectorTest@282003e1</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.crypto.HazelcastSymmetricEncryptionDetectorTest.detectHazelcastSymmetric()'><b>detectHazelcastSymmetric</b><br>Test class: com.h3xstream.findsecbugs.crypto.HazelcastSymmetricEncryptionDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.crypto.HazelcastSymmetricEncryptionDetectorTest@7f416310</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.injection.sql.HibernateInjectionSourceTest.detectHibernateInjection()'><b>detectHibernateInjection</b><br>Test class: com.h3xstream.findsecbugs.injection.sql.HibernateInjectionSourceTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.injection.sql.HibernateInjectionSourceTest@6cc7b4de</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.cookie.CookieFlagsDetectorTest.detectHttpOnlyCookieBasic()'><b>detectHttpOnlyCookieBasic</b><br>Test class: com.h3xstream.findsecbugs.cookie.CookieFlagsDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.cookie.CookieFlagsDetectorTest@5f71c76a</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.injection.http.HttpParameterPollutionDetectorTest.detectHttpParameterPollution()'><b>detectHttpParameterPollution</b><br>Test class: com.h3xstream.findsecbugs.injection.http.HttpParameterPollutionDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.injection.http.HttpParameterPollutionDetectorTest@77a57272</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.xss.XssPortletDetectorTest.detectIbmPortlet()'><b>detectIbmPortlet</b><br>Test class: com.h3xstream.findsecbugs.xss.XssPortletDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.xss.XssPortletDetectorTest@71248c21</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.injection.custom.CustomInjectionDetectorTest.detectInjection()'><b>detectInjection</b><br>Test class: com.h3xstream.findsecbugs.injection.custom.CustomInjectionDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.injection.custom.CustomInjectionDetectorTest@15bfd87</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.injection.script.ElInjectionTest.detectInjection()'><b>detectInjection</b><br>Test class: com.h3xstream.findsecbugs.injection.script.ElInjectionTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.injection.script.ElInjectionTest@32464a14</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.injection.script.ScriptEngineInjectionTest.detectInjection()'><b>detectInjection</b><br>Test class: com.h3xstream.findsecbugs.injection.script.ScriptEngineInjectionTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.injection.script.ScriptEngineInjectionTest@1442d7b5</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.injection.script.SeamLoggingDetectionTest.detectInjection()'><b>detectInjection</b><br>Test class: com.h3xstream.findsecbugs.injection.script.SeamLoggingDetectionTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.injection.script.SeamLoggingDetectionTest@1efee8e7</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.injection.script.SpelInjectionTest.detectInjection()'><b>detectInjection</b><br>Test class: com.h3xstream.findsecbugs.injection.script.SpelInjectionTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.injection.script.SpelInjectionTest@1ee807c6</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.injection.sql.SqlMethodUnknownSourceTest.detectInjection()'><b>detectInjection</b><br>Test class: com.h3xstream.findsecbugs.injection.sql.SqlMethodUnknownSourceTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.injection.sql.SqlMethodUnknownSourceTest@49c43f4e</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.injection.sql.TorqueSqlDetectorTest.detectInjection()'><b>detectInjection</b><br>Test class: com.h3xstream.findsecbugs.injection.sql.TorqueSqlDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.injection.sql.TorqueSqlDetectorTest@290dbf45</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.injection.sql.TurbineSqlDetectorTest.detectInjection()'><b>detectInjection</b><br>Test class: com.h3xstream.findsecbugs.injection.sql.TurbineSqlDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.injection.sql.TurbineSqlDetectorTest@12028586</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.endpoint.JaxRsEndpointDetectorTest.detectJaxRsEndpoint()'><b>detectJaxRsEndpoint</b><br>Test class: com.h3xstream.findsecbugs.endpoint.JaxRsEndpointDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.endpoint.JaxRsEndpointDetectorTest@2bea5ab4</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.endpoint.JaxWsEndpointDetectorTest.detectJaxWsEndpoint()'><b>detectJaxWsEndpoint</b><br>Test class: com.h3xstream.findsecbugs.endpoint.JaxWsEndpointDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.endpoint.JaxWsEndpointDetectorTest@3d8314f0</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.injection.sql.SpringPreparedStatementCreatorFactoryTest.detectJdbcInjection()'><b>detectJdbcInjection</b><br>Test class: com.h3xstream.findsecbugs.injection.sql.SpringPreparedStatementCreatorFactoryTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.injection.sql.SpringPreparedStatementCreatorFactoryTest@799d4f69</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.injection.sql.JdoInjectionSourceTest.detectJdoInjection()'><b>detectJdoInjection</b><br>Test class: com.h3xstream.findsecbugs.injection.sql.JdoInjectionSourceTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.injection.sql.JdoInjectionSourceTest@5cdd8682</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.injection.sql.JdoInjectionSourceFilterTest.detectJdoInjectionInFilters()'><b>detectJdoInjectionInFilters</b><br>Test class: com.h3xstream.findsecbugs.injection.sql.JdoInjectionSourceFilterTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.injection.sql.JdoInjectionSourceFilterTest@679b62af</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.injection.sql.JpaInjectionSourceTest.detectJpaInjection()'><b>detectJpaInjection</b><br>Test class: com.h3xstream.findsecbugs.injection.sql.JpaInjectionSourceTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.injection.sql.JpaInjectionSourceTest@d6da883</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.injection.sql.JpaInjectionSourceTest.detectJpaInjectionInNativeQuery()'><b>detectJpaInjectionInNativeQuery</b><br>Test class: com.h3xstream.findsecbugs.injection.sql.JpaInjectionSourceTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.injection.sql.JpaInjectionSourceTest@d6da883</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.injection.ldap.UnboundIdLdapInjectionSourceTest.detectLdapInjection()'><b>detectLdapInjection</b><br>Test class: com.h3xstream.findsecbugs.injection.ldap.UnboundIdLdapInjectionSourceTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.injection.ldap.UnboundIdLdapInjectionSourceTest@6e2c9341</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.injection.ldap.JndiLdapInjectionSourceAdditionalSignaturesTest.detectLdapInjectionEdgeCase()'><b>detectLdapInjectionEdgeCase</b><br>Test class: com.h3xstream.findsecbugs.injection.ldap.JndiLdapInjectionSourceAdditionalSignaturesTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.injection.ldap.JndiLdapInjectionSourceAdditionalSignaturesTest@7181ae3f</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.injection.ldap.JndiLdapInjectionSourceAdditionalSignaturesTest.detectLdapInjectionInQuery()'><b>detectLdapInjectionInQuery</b><br>Test class: com.h3xstream.findsecbugs.injection.ldap.JndiLdapInjectionSourceAdditionalSignaturesTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.injection.ldap.JndiLdapInjectionSourceAdditionalSignaturesTest@7181ae3f</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.injection.ldap.JndiLdapInjectionSourceTest.detectLdapInjectionInQuery()'><b>detectLdapInjectionInQuery</b><br>Test class: com.h3xstream.findsecbugs.injection.ldap.JndiLdapInjectionSourceTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.injection.ldap.JndiLdapInjectionSourceTest@46238e3f</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.injection.ldap.JndiLdapInjectionSourceAdditionalSignaturesTest.detectLdapInjectionInQuerySunApi()'><b>detectLdapInjectionInQuerySunApi</b><br>Test class: com.h3xstream.findsecbugs.injection.ldap.JndiLdapInjectionSourceAdditionalSignaturesTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.injection.ldap.JndiLdapInjectionSourceAdditionalSignaturesTest@7181ae3f</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.injection.sql.JdbcInjectionSourceTest.detectNativeSqlAndOther()'><b>detectNativeSqlAndOther</b><br>Test class: com.h3xstream.findsecbugs.injection.sql.JdbcInjectionSourceTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.injection.sql.JdbcInjectionSourceTest@32cf48b7</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.crypto.CipherWithNoIntegrityDetectorTest.detectNoIntegrity()'><b>detectNoIntegrity</b><br>Test class: com.h3xstream.findsecbugs.crypto.CipherWithNoIntegrityDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.crypto.CipherWithNoIntegrityDetectorTest@4b9e255</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.crypto.NullCipherDetectorTest.detectNullCipher()'><b>detectNullCipher</b><br>Test class: com.h3xstream.findsecbugs.crypto.NullCipherDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.crypto.NullCipherDetectorTest@2473b9ce</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.serial.ObjectDeserializationDetectorTest.detectObjectDeserialization()'><b>detectObjectDeserialization</b><br>Test class: com.h3xstream.findsecbugs.serial.ObjectDeserializationDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.serial.ObjectDeserializationDetectorTest@120d6fe6</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.serial.ObjectDeserializationDetectorTest.detectObjectDeserializationClassLoaderObjectInputStream()'><b>detectObjectDeserializationClassLoaderObjectInputStream</b><br>Test class: com.h3xstream.findsecbugs.serial.ObjectDeserializationDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.serial.ObjectDeserializationDetectorTest@120d6fe6</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.injection.script.OgnlInjectionDetectorTest.detectOgnlReflectionProvider()'><b>detectOgnlReflectionProvider</b><br>Test class: com.h3xstream.findsecbugs.injection.script.OgnlInjectionDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.injection.script.OgnlInjectionDetectorTest@4e4aea35</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.injection.script.OgnlInjectionDetectorTest.detectOgnlUtil()'><b>detectOgnlUtil</b><br>Test class: com.h3xstream.findsecbugs.injection.script.OgnlInjectionDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.injection.script.OgnlInjectionDetectorTest@4e4aea35</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.file.PathTraversalDetectorTest.detectPathTraversal()'><b>detectPathTraversal</b><br>Test class: com.h3xstream.findsecbugs.file.PathTraversalDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.file.PathTraversalDetectorTest@130f889</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.PermissiveCORSDetectorTest.detectPermissiveCORS()'><b>detectPermissiveCORS</b><br>Test class: com.h3xstream.findsecbugs.PermissiveCORSDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.PermissiveCORSDetectorTest@7fad8c79</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.cookie.PersistentCookieDetectorTest.detectPersistentCookieUsage()'><b>detectPersistentCookieUsage</b><br>Test class: com.h3xstream.findsecbugs.cookie.PersistentCookieDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.cookie.PersistentCookieDetectorTest@48a242ce</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.xss.XssPortletDetectorTest.detectPortlet()'><b>detectPortlet</b><br>Test class: com.h3xstream.findsecbugs.xss.XssPortletDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.xss.XssPortletDetectorTest@71248c21</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.injection.sql.JdbcInjectionSourceTest.detectPrepareStatement()'><b>detectPrepareStatement</b><br>Test class: com.h3xstream.findsecbugs.injection.sql.JdbcInjectionSourceTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.injection.sql.JdbcInjectionSourceTest@32cf48b7</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.android.PrintlnUseDetectorTest.detectPrintln()'><b>detectPrintln</b><br>Test class: com.h3xstream.findsecbugs.android.PrintlnUseDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.android.PrintlnUseDetectorTest@44f75083</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.injection.sql.SpringJdbcOperationsAndTemplateTest.detectQuery()'><b>detectQuery</b><br>Test class: com.h3xstream.findsecbugs.injection.sql.SpringJdbcOperationsAndTemplateTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.injection.sql.SpringJdbcOperationsAndTemplateTest@45afc369</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.injection.sql.SpringJdbcOperationsAndTemplateTest.detectQueryForList()'><b>detectQueryForList</b><br>Test class: com.h3xstream.findsecbugs.injection.sql.SpringJdbcOperationsAndTemplateTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.injection.sql.SpringJdbcOperationsAndTemplateTest@45afc369</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.injection.sql.SpringJdbcOperationsAndTemplateTest.detectQueryForMap()'><b>detectQueryForMap</b><br>Test class: com.h3xstream.findsecbugs.injection.sql.SpringJdbcOperationsAndTemplateTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.injection.sql.SpringJdbcOperationsAndTemplateTest@45afc369</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.injection.sql.SpringJdbcOperationsAndTemplateTest.detectQueryForObject()'><b>detectQueryForObject</b><br>Test class: com.h3xstream.findsecbugs.injection.sql.SpringJdbcOperationsAndTemplateTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.injection.sql.SpringJdbcOperationsAndTemplateTest@45afc369</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.injection.sql.SpringJdbcOperationsAndTemplateTest.detectQueryForRowSet()'><b>detectQueryForRowSet</b><br>Test class: com.h3xstream.findsecbugs.injection.sql.SpringJdbcOperationsAndTemplateTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.injection.sql.SpringJdbcOperationsAndTemplateTest@45afc369</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.injection.sql.SpringJdbcOperationsAndTemplateTest.detectQueryInt()'><b>detectQueryInt</b><br>Test class: com.h3xstream.findsecbugs.injection.sql.SpringJdbcOperationsAndTemplateTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.injection.sql.SpringJdbcOperationsAndTemplateTest@45afc369</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.injection.sql.SpringJdbcOperationsAndTemplateTest.detectQueryLong()'><b>detectQueryLong</b><br>Test class: com.h3xstream.findsecbugs.injection.sql.SpringJdbcOperationsAndTemplateTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.injection.sql.SpringJdbcOperationsAndTemplateTest@45afc369</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.ReDosDetectorTest.detectRedosInCode()'><b>detectRedosInCode</b><br>Test class: com.h3xstream.findsecbugs.ReDosDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.ReDosDetectorTest@5e25a92e</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.HttpResponseSplittingDetectorTest.detectResponseSplitting()'><b>detectResponseSplitting</b><br>Test class: com.h3xstream.findsecbugs.HttpResponseSplittingDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.HttpResponseSplittingDetectorTest@1188e820</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.injection.crlf.CrlfLogInjectionDetectorTest.detectResponseSplitting()'><b>detectResponseSplitting</b><br>Test class: com.h3xstream.findsecbugs.injection.crlf.CrlfLogInjectionDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.injection.crlf.CrlfLogInjectionDetectorTest@276438c9</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.crypto.RsaNoPaddingDetectorTest.detectRsaNoPadding()'><b>detectRsaNoPadding</b><br>Test class: com.h3xstream.findsecbugs.crypto.RsaNoPaddingDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.crypto.RsaNoPaddingDetectorTest@60438a68</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.scala.SSRFDetectorTest.detectSSRFInController()'><b>detectSSRFInController</b><br>Test class: com.h3xstream.findsecbugs.scala.SSRFDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.scala.SSRFDetectorTest@23bb8443</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.bugs.OutOfBoundMutableTest.detectSecureFlagCookieBasic()'><b>detectSecureFlagCookieBasic</b><br>Test class: com.h3xstream.findsecbugs.bugs.OutOfBoundMutableTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.bugs.OutOfBoundMutableTest@69379752</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.cookie.CookieFlagsDetectorTest.detectSecureFlagCookieBasic()'><b>detectSecureFlagCookieBasic</b><br>Test class: com.h3xstream.findsecbugs.cookie.CookieFlagsDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.cookie.CookieFlagsDetectorTest@5f71c76a</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.android.BroadcastDetectorTest.detectSendBroadcast()'><b>detectSendBroadcast</b><br>Test class: com.h3xstream.findsecbugs.android.BroadcastDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.android.BroadcastDetectorTest@543e710e</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.scala.ScalaSensitiveDataExposureDetectorTest.detectSensitiveDataExposure()'><b>detectSensitiveDataExposure</b><br>Test class: com.h3xstream.findsecbugs.scala.ScalaSensitiveDataExposureDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.scala.ScalaSensitiveDataExposureDetectorTest@11e21d0e</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.endpoint.ServletEndpointDetectorTest.detectServletVariousInputs()'><b>detectServletVariousInputs</b><br>Test class: com.h3xstream.findsecbugs.endpoint.ServletEndpointDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.endpoint.ServletEndpointDetectorTest@2df32bf7</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.endpoint.SpringMvcEndpointDetectorTest.detectSpringController()'><b>detectSpringController</b><br>Test class: com.h3xstream.findsecbugs.endpoint.SpringMvcEndpointDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.endpoint.SpringMvcEndpointDetectorTest@530612ba</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.csrf.SpringCsrfProtectionDisabledDetectorTest.detectSpringCsrfProtectionDisabled()'><b>detectSpringCsrfProtectionDisabled</b><br>Test class: com.h3xstream.findsecbugs.csrf.SpringCsrfProtectionDisabledDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.csrf.SpringCsrfProtectionDisabledDetectorTest@de3a06f</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.csrf.SpringCsrfUnrestrictedRequestMappingDetectorTest.detectSpringCsrfUnrestrictedRequestMapping()'><b>detectSpringCsrfUnrestrictedRequestMapping</b><br>Test class: com.h3xstream.findsecbugs.csrf.SpringCsrfUnrestrictedRequestMappingDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.csrf.SpringCsrfUnrestrictedRequestMappingDetectorTest@76b10754</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.serial.DeserializationGadgetDetectorTest.detectSpringGadget()'><b>detectSpringGadget</b><br>Test class: com.h3xstream.findsecbugs.serial.DeserializationGadgetDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.serial.DeserializationGadgetDetectorTest@1176dcec</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.spring.SpringUnvalidatedRedirectDetectorTest.detectSpringUnvalidatedRedirect()'><b>detectSpringUnvalidatedRedirect</b><br>Test class: com.h3xstream.findsecbugs.spring.SpringUnvalidatedRedirectDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.spring.SpringUnvalidatedRedirectDetectorTest@3444d69d</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.scala.ScalaSqlInjectionAnormDetectorTest.detectSqlInjection()'><b>detectSqlInjection</b><br>Test class: com.h3xstream.findsecbugs.scala.ScalaSqlInjectionAnormDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.scala.ScalaSqlInjectionAnormDetectorTest@1dd02175</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.scala.ScalaSqlInjectionSlickDetectorTest.detectSqlInjection()'><b>detectSqlInjection</b><br>Test class: com.h3xstream.findsecbugs.scala.ScalaSqlInjectionSlickDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.scala.ScalaSqlInjectionSlickDetectorTest@31206beb</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.scala.SslDisablerDetectorTest.detectSslDisabler()'><b>detectSslDisabler</b><br>Test class: com.h3xstream.findsecbugs.scala.SslDisablerDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.scala.SslDisablerDetectorTest@3ffcd140</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.crypto.StaticIvDetectorTest.detectStaticIv()'><b>detectStaticIv</b><br>Test class: com.h3xstream.findsecbugs.crypto.StaticIvDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.crypto.StaticIvDetectorTest@140e5a13</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.endpoint.Struts1EndpointDetectorTest.detectStruts1Endpoint()'><b>detectStruts1Endpoint</b><br>Test class: com.h3xstream.findsecbugs.endpoint.Struts1EndpointDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.endpoint.Struts1EndpointDetectorTest@2a40cd94</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.endpoint.Struts2EndpointDetectorTest.detectStruts2Endpoint()'><b>detectStruts2Endpoint</b><br>Test class: com.h3xstream.findsecbugs.endpoint.Struts2EndpointDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.endpoint.Struts2EndpointDetectorTest@f4168b8</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.injection.command.CommandInjectionDetectorAdvancedTest.detectSuspicious()'><b>detectSuspicious</b><br>Test class: com.h3xstream.findsecbugs.injection.command.CommandInjectionDetectorAdvancedTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.injection.command.CommandInjectionDetectorAdvancedTest@166fa74d</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.injection.stringbuilder.InjectionWithStringBuilderTest.detectSuspiciousCase()'><b>detectSuspiciousCase</b><br>Test class: com.h3xstream.findsecbugs.injection.stringbuilder.InjectionWithStringBuilderTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.injection.stringbuilder.InjectionWithStringBuilderTest@17776a8</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.injection.trust.TrustBoundaryViolationDetectorTest.detectTBV()'><b>detectTBV</b><br>Test class: com.h3xstream.findsecbugs.injection.trust.TrustBoundaryViolationDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.injection.trust.TrustBoundaryViolationDetectorTest@69a10787</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.file.FileUploadFilenameDetectorTest.detectTaintedFilename()'><b>detectTaintedFilename</b><br>Test class: com.h3xstream.findsecbugs.file.FileUploadFilenameDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.file.FileUploadFilenameDetectorTest@70a9f84e</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.endpoint.TapestryEndpointDetectorTest.detectTapestryPagePojo()'><b>detectTapestryPagePojo</b><br>Test class: com.h3xstream.findsecbugs.endpoint.TapestryEndpointDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.endpoint.TapestryEndpointDetectorTest@3bd94634</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.endpoint.TapestryEndpointDetectorTest.detectTapestryPageWithFrameworkReference()'><b>detectTapestryPageWithFrameworkReference</b><br>Test class: com.h3xstream.findsecbugs.endpoint.TapestryEndpointDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.endpoint.TapestryEndpointDetectorTest@3bd94634</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.injection.script.OgnlInjectionDetectorTest.detectTextParser()'><b>detectTextParser</b><br>Test class: com.h3xstream.findsecbugs.injection.script.OgnlInjectionDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.injection.script.OgnlInjectionDetectorTest@4e4aea35</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.crypto.UnencryptedServerSocketDetectorTest.detectUnencryptedSocket()'><b>detectUnencryptedSocket</b><br>Test class: com.h3xstream.findsecbugs.crypto.UnencryptedServerSocketDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.crypto.UnencryptedServerSocketDetectorTest@3439f68d</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.crypto.UnencryptedSocketDetectorTest.detectUnencryptedSocket()'><b>detectUnencryptedSocket</b><br>Test class: com.h3xstream.findsecbugs.crypto.UnencryptedSocketDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.crypto.UnencryptedSocketDetectorTest@dbd940d</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.xml.DocumentBuilderSafePropertyTest.detectUnsafeNoSpecialSettings()'><b>detectUnsafeNoSpecialSettings</b><br>Test class: com.h3xstream.findsecbugs.xml.DocumentBuilderSafePropertyTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.xml.DocumentBuilderSafePropertyTest@1445d7f</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.xml.SaxParserSafePropertyTest.detectUnsafeNoSpecialSettings()'><b>detectUnsafeNoSpecialSettings</b><br>Test class: com.h3xstream.findsecbugs.xml.SaxParserSafePropertyTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.xml.SaxParserSafePropertyTest@6a396c1e</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.xml.DocumentBuilderSafePropertyTest.detectUnsafePartialConfiguration()'><b>detectUnsafePartialConfiguration</b><br>Test class: com.h3xstream.findsecbugs.xml.DocumentBuilderSafePropertyTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.xml.DocumentBuilderSafePropertyTest@1445d7f</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.UnvalidatedRedirectDetectorTest.detectUnvalidatedRedirect()'><b>detectUnvalidatedRedirect</b><br>Test class: com.h3xstream.findsecbugs.UnvalidatedRedirectDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.UnvalidatedRedirectDetectorTest@5606c0b</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.cookie.UrlRewritingDetectorTest.detectUrlRewriting()'><b>detectUrlRewriting</b><br>Test class: com.h3xstream.findsecbugs.cookie.UrlRewritingDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.cookie.UrlRewritingDetectorTest@1e4a7dd4</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.PredictableRandomDetectorScalaTest.detectUsePredictableRandom()'><b>detectUsePredictableRandom</b><br>Test class: com.h3xstream.findsecbugs.PredictableRandomDetectorScalaTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.PredictableRandomDetectorScalaTest@71a794e5</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.PredictableRandomDetectorTest.detectUsePredictableRandom()'><b>detectUsePredictableRandom</b><br>Test class: com.h3xstream.findsecbugs.PredictableRandomDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.PredictableRandomDetectorTest@76329302</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.scala.PlayUnvalidatedRedirectDetectorTest.detectUsePredictableRandom()'><b>detectUsePredictableRandom</b><br>Test class: com.h3xstream.findsecbugs.scala.PlayUnvalidatedRedirectDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.scala.PlayUnvalidatedRedirectDetectorTest@4df828d7</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.crypto.WeakMessageDigestDetectorTest.detectWeakDigest()'><b>detectWeakDigest</b><br>Test class: com.h3xstream.findsecbugs.crypto.WeakMessageDigestDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.crypto.WeakMessageDigestDetectorTest@71d15f18</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.crypto.WeakMessageDigestDetectorTest.detectWeakDigestAdditionalSignatures()'><b>detectWeakDigestAdditionalSignatures</b><br>Test class: com.h3xstream.findsecbugs.crypto.WeakMessageDigestDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.crypto.WeakMessageDigestDetectorTest@71d15f18</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.crypto.WeakMessageDigestDetectorTest.detectWeakDigestApache()'><b>detectWeakDigestApache</b><br>Test class: com.h3xstream.findsecbugs.crypto.WeakMessageDigestDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.crypto.WeakMessageDigestDetectorTest@71d15f18</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.WeakFilenameUtilsMethodDetectorTest.detectWeakFilenameUtils()'><b>detectWeakFilenameUtils</b><br>Test class: com.h3xstream.findsecbugs.WeakFilenameUtilsMethodDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.WeakFilenameUtilsMethodDetectorTest@80ec1f8</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.crypto.WeakTrustManagerDetectorTest.detectWeakHostnameVerifier()'><b>detectWeakHostnameVerifier</b><br>Test class: com.h3xstream.findsecbugs.crypto.WeakTrustManagerDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.crypto.WeakTrustManagerDetectorTest@6c9f5c0d</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.crypto.WeakTLSDetectorTest.detectWeakTLS()'><b>detectWeakTLS</b><br>Test class: com.h3xstream.findsecbugs.crypto.WeakTLSDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.crypto.WeakTLSDetectorTest@17695df3</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.crypto.WeakTrustManagerDetectorTest.detectWeakTrustManager()'><b>detectWeakTrustManager</b><br>Test class: com.h3xstream.findsecbugs.crypto.WeakTrustManagerDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.crypto.WeakTrustManagerDetectorTest@6c9f5c0d</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.crypto.WeakTrustManagerDetectorTest.detectWeakTrustManagerSslDisabler()'><b>detectWeakTrustManagerSslDisabler</b><br>Test class: com.h3xstream.findsecbugs.crypto.WeakTrustManagerDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.crypto.WeakTrustManagerDetectorTest@6c9f5c0d</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.android.WebViewJavascriptEnabledDetectorTest.detectWebViewJavascriptEnabled()'><b>detectWebViewJavascriptEnabled</b><br>Test class: com.h3xstream.findsecbugs.android.WebViewJavascriptEnabledDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.android.WebViewJavascriptEnabledDetectorTest@2698dc7</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.android.WebViewJavascriptInterfaceDetectorTest.detectWebViewJavascriptInterface()'><b>detectWebViewJavascriptInterface</b><br>Test class: com.h3xstream.findsecbugs.android.WebViewJavascriptInterfaceDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.android.WebViewJavascriptInterfaceDetectorTest@43d7741f</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.endpoint.WicketEndpointDetectorTest.detectWicketEndpoint()'><b>detectWicketEndpoint</b><br>Test class: com.h3xstream.findsecbugs.endpoint.WicketEndpointDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.endpoint.WicketEndpointDetectorTest@58a90037</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.android.WorldWritableDetectorTest.detectWorldWritableHandle()'><b>detectWorldWritableHandle</b><br>Test class: com.h3xstream.findsecbugs.android.WorldWritableDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.android.WorldWritableDetectorTest@17baae6e</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.xpath.XPathApacheXmlSecTest.detectXPathInjectionApache()'><b>detectXPathInjectionApache</b><br>Test class: com.h3xstream.findsecbugs.xpath.XPathApacheXmlSecTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.xpath.XPathApacheXmlSecTest@6b67034</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.xpath.XPathInjectionApacheXPathApiDetectorTest.detectXPathInjectionApache()'><b>detectXPathInjectionApache</b><br>Test class: com.h3xstream.findsecbugs.xpath.XPathInjectionApacheXPathApiDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.xpath.XPathInjectionApacheXPathApiDetectorTest@16267862</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.xpath.XPathInjectionJavaxDetectorTest.detectXPathInjectionJavax()'><b>detectXPathInjectionJavax</b><br>Test class: com.h3xstream.findsecbugs.xpath.XPathInjectionJavaxDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.xpath.XPathInjectionJavaxDetectorTest@453da22c</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.XmlDecoderDetectorTest.detectXmlDecoder()'><b>detectXmlDecoder</b><br>Test class: com.h3xstream.findsecbugs.XmlDecoderDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.XmlDecoderDetectorTest@10b48321</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.scala.ScalaXssDetectorTest.detectXssInController()'><b>detectXssInController</b><br>Test class: com.h3xstream.findsecbugs.scala.ScalaXssDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.scala.ScalaXssDetectorTest@3e77a1ed</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.xml.XmlReaderDetectorTest.detectXxe()'><b>detectXxe</b><br>Test class: com.h3xstream.findsecbugs.xml.XmlReaderDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.xml.XmlReaderDetectorTest@6c3f5566</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.xml.XmlStreamReaderDetectorTest.detectXxe()'><b>detectXxe</b><br>Test class: com.h3xstream.findsecbugs.xml.XmlStreamReaderDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.xml.XmlStreamReaderDetectorTest@12405818</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.xml.XxeDetectorTest.detectXxe()'><b>detectXxe</b><br>Test class: com.h3xstream.findsecbugs.xml.XxeDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.xml.XxeDetectorTest@314c508a</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.xml.XxeDetectorTest.detectXxeFromDocumentBuilder()'><b>detectXxeFromDocumentBuilder</b><br>Test class: com.h3xstream.findsecbugs.xml.XxeDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.xml.XxeDetectorTest@314c508a</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.jsp.JstlOutDetectorTest.jspEscape1_safe()'><b>jspEscape1_safe</b><br>Test class: com.h3xstream.findsecbugs.jsp.JstlOutDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.jsp.JstlOutDetectorTest@11c20519</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.jsp.JstlOutDetectorTest.jspEscape2_unsafe()'><b>jspEscape2_unsafe</b><br>Test class: com.h3xstream.findsecbugs.jsp.JstlOutDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.jsp.JstlOutDetectorTest@11c20519</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.jsp.JstlOutDetectorTest.jspEscape3_safe()'><b>jspEscape3_safe</b><br>Test class: com.h3xstream.findsecbugs.jsp.JstlOutDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.jsp.JstlOutDetectorTest@11c20519</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.jsp.JstlOutDetectorTest.jspEscape4_unknown()'><b>jspEscape4_unknown</b><br>Test class: com.h3xstream.findsecbugs.jsp.JstlOutDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.jsp.JstlOutDetectorTest@11c20519</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.jsp.JstlOutDetectorWeblogicTest.jspEscape_weblogic()'><b>jspEscape_weblogic</b><br>Test class: com.h3xstream.findsecbugs.jsp.JstlOutDetectorWeblogicTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.jsp.JstlOutDetectorWeblogicTest@70beb599</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.jsp.JspIncludeDetectorTest.jspInclude1_unsafe()'><b>jspInclude1_unsafe</b><br>Test class: com.h3xstream.findsecbugs.jsp.JspIncludeDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.jsp.JspIncludeDetectorTest@2d127a61</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.jsp.JspIncludeDetectorTest.jspInclude2_safe()'><b>jspInclude2_safe</b><br>Test class: com.h3xstream.findsecbugs.jsp.JspIncludeDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.jsp.JspIncludeDetectorTest@2d127a61</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.jsp.JspIncludeDetectorTest.jspInclude3_unsafe()'><b>jspInclude3_unsafe</b><br>Test class: com.h3xstream.findsecbugs.jsp.JspIncludeDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.jsp.JspIncludeDetectorTest@2d127a61</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.jsp.JspSpringEvalDetectorTest.jspSpringEval1_unsafe()'><b>jspSpringEval1_unsafe</b><br>Test class: com.h3xstream.findsecbugs.jsp.JspSpringEvalDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.jsp.JspSpringEvalDetectorTest@2bbaf4f0</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.jsp.JspSpringEvalDetectorTest.jspSpringEval2_unsafe()'><b>jspSpringEval2_unsafe</b><br>Test class: com.h3xstream.findsecbugs.jsp.JspSpringEvalDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.jsp.JspSpringEvalDetectorTest@2bbaf4f0</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.jsp.JspSpringEvalDetectorTest.jspSpringEval3_unsafe()'><b>jspSpringEval3_unsafe</b><br>Test class: com.h3xstream.findsecbugs.jsp.JspSpringEvalDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.jsp.JspSpringEvalDetectorTest@2bbaf4f0</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.jsp.JspSpringEvalDetectorTest.jspSpringEval4_safe()'><b>jspSpringEval4_safe</b><br>Test class: com.h3xstream.findsecbugs.jsp.JspSpringEvalDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.jsp.JspSpringEvalDetectorTest@2bbaf4f0</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.endpoint.TapestryEndpointDetectorTest.noFalsePositiveOnOtherClass()'><b>noFalsePositiveOnOtherClass</b><br>Test class: com.h3xstream.findsecbugs.endpoint.TapestryEndpointDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.endpoint.TapestryEndpointDetectorTest@3bd94634</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.common.ByteCodeTest.probeByteCodeDebug()'><b>probeByteCodeDebug</b><br>Test class: com.h3xstream.findsecbugs.common.ByteCodeTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.common.ByteCodeTest@27fe3806</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.xml.XxeDetectorTest.safeWithUseOfEntityResolver()'><b>safeWithUseOfEntityResolver</b><br>Test class: com.h3xstream.findsecbugs.xml.XxeDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.xml.XxeDetectorTest@314c508a</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.xml.XxeDetectorTest.safeWithUseOfPrivilegeExceptionAction()'><b>safeWithUseOfPrivilegeExceptionAction</b><br>Test class: com.h3xstream.findsecbugs.xml.XxeDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.xml.XxeDetectorTest@314c508a</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.StrutsValidatorFormDetectorTest.strutsFormWithValidation()'><b>strutsFormWithValidation</b><br>Test class: com.h3xstream.findsecbugs.StrutsValidatorFormDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.StrutsValidatorFormDetectorTest@1372ed45</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.StrutsValidatorFormDetectorTest.strutsFormWithoutValidation1()'><b>strutsFormWithoutValidation1</b><br>Test class: com.h3xstream.findsecbugs.StrutsValidatorFormDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.StrutsValidatorFormDetectorTest@1372ed45</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.StrutsValidatorFormDetectorTest.strutsFormWithoutValidation2()'><b>strutsFormWithoutValidation2</b><br>Test class: com.h3xstream.findsecbugs.StrutsValidatorFormDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.StrutsValidatorFormDetectorTest@1372ed45</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.serial.UnsafeJacksonDeserializationDetectorTest.testJacksonDeserialization()'><b>testJacksonDeserialization</b><br>Test class: com.h3xstream.findsecbugs.serial.UnsafeJacksonDeserializationDetectorTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.serial.UnsafeJacksonDeserializationDetectorTest@4ba2ca36</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.taintanalysis.JaxRsAnnotatedControllerTest.testSafeTestCases()'><b>testSafeTestCases</b><br>Test class: com.h3xstream.findsecbugs.taintanalysis.JaxRsAnnotatedControllerTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.taintanalysis.JaxRsAnnotatedControllerTest@6a79c292</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.taintanalysis.TaintAnalysisTaintedByAnnotationTest.testSafeTestCases()'><b>testSafeTestCases</b><br>Test class: com.h3xstream.findsecbugs.taintanalysis.TaintAnalysisTaintedByAnnotationTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.taintanalysis.TaintAnalysisTaintedByAnnotationTest@37574691</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.taintanalysis.TaintAnalysisTaintedByAnnotationTest.testUnsafeTestCases()'><b>testUnsafeTestCases</b><br>Test class: com.h3xstream.findsecbugs.taintanalysis.TaintAnalysisTaintedByAnnotationTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.taintanalysis.TaintAnalysisTaintedByAnnotationTest@37574691</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.taintanalysis.TaintAnalysisTaintedByAnnotationTest.testVariousTaintedAnnotations()'><b>testVariousTaintedAnnotations</b><br>Test class: com.h3xstream.findsecbugs.taintanalysis.TaintAnalysisTaintedByAnnotationTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.taintanalysis.TaintAnalysisTaintedByAnnotationTest@37574691</td></tr>
+<tr>
+<td title='com.h3xstream.findsecbugs.injection.SinkFilesValidationTest.validateSinks()'><b>validateSinks</b><br>Test class: com.h3xstream.findsecbugs.injection.SinkFilesValidationTest</td>
+<td></td>
+<td>0</td>
+<td>com.h3xstream.findsecbugs.injection.SinkFilesValidationTest@76a4d6c</td></tr>
+</table><p>
+</body>
+</html>
